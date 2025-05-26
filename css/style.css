@@ -340,7 +340,7 @@ textarea:focus {
 .top_header_wrapper {
 	float: left;
 	width: 100%;
-	background-color: #2ec8a6;
+	background-color: #008888;
 	font-size: 14px;
 	color: #ffffff;
 	position: relative;
@@ -384,7 +384,7 @@ textarea:focus {
 	width: auto;
 	width: 170px;
 	text-align: center;
-	background-color: #22a98b;
+	background-color: #06cece;
 	padding-top: 19px;
 	padding-bottom: 16px;
 }
@@ -1040,7 +1040,7 @@ textarea:focus {
 }
 .cc_slider_img_section .owl-theme .owl-nav[class*='owl-'] {
 	background-color: white;
-	color: #2ec8a6;
+	color: #008888;
 }
 .owl-theme .owl-nav.disabled + .owl-dots {
 	display: none;
@@ -1224,7 +1224,7 @@ textarea:focus {
 	left: 50px;
 }
 .cat_txt h1 {
-	color: #111111;
+	color: #008888;
 	font-size: 18px;
 	font-weight: 800;
 	padding-bottom: 10px;
@@ -2549,7 +2549,7 @@ textarea:focus {
 	width: 70%;
 	z-index: 5;
 	position: relative;
-	background: #2ec8a6;
+	background: #008888;
 	padding: 83px 100px 83px 100px;
 }
 .box_side_icon {
@@ -2861,7 +2861,7 @@ textarea:focus {
 .newsletter_wrapper {
 	float: left;
 	width: 100%;
-	background-color: #2ec8a6;
+	background-color: #008888;
 }
 .newsletter_text {
 	float: left;
@@ -3270,7 +3270,7 @@ textarea:focus {
 }
 .ser_slider_wrapper .owl-theme .owl-dots .owl-dot.active span,
 .team_slider_wrapper .owl-theme .owl-dots .owl-dot:hover span {
-	background: #2ec8a6;
+	background: #008888;
 	display: block;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -4812,7 +4812,7 @@ ul {
 	float: left;
 	width: 100%;
 	padding-top: 100px;
-	background-color: #f9f9f9;
+	background-color: #008888;
 	padding-bottom: 100px;
 }
 .news_dc_txt h3 {
@@ -15004,7 +15004,7 @@ ul {
 .newsletter_wrapper_4 {
 	float: left;
 	width: 100%;
-	background-color: #1e9ce5;
+	background-color: #008888;
 }
 .newsletter_wrapper_4 .newsletter_text {
 	float: left;
@@ -22867,7 +22867,7 @@ ul {
 }
 
 .gc_main_navigation {
-    font-size: 10px !important;
+    font-size: 15px !important;
     padding: 2px 6px !important;
 }
 .main_nav_ul {

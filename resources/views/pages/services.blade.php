@@ -205,7 +205,7 @@
                 </div>
                 <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12 abt_section">
                     <div class="abt_txt abt_txt_resp">
-                        <h3>Specialty Medicine with Compassion and Car Proin gravida nibh vel velit</h3>
+                        <h3 style="color: #008888;">Specialty Medicine with Compassion and Car Proin gravida nibh vel velit</h3>
                         <p class="med_toppadder20">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, aks lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate..</p>
                         <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. aks lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit.</p>
                     </div>
