@@ -22840,3 +22840,36 @@ ul {
 }
     /* bottom: 25px; */
 /* menu-fixed end */
+
+
+.main_nav_ul {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    gap: 20px !important;
+}
+
+.main_nav_ul > li {
+    white-space: nowrap !important;
+}
+
+.gc_main_navigation {
+    font-size: 14px !important;
+    text-transform: uppercase !important;
+    color: black !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    padding: 5px 10px !important;
+}
+
+.gc_main_navigation {
+    font-size: 10px !important;
+    padding: 2px 6px !important;
+}
+.main_nav_ul {
+    gap: 10px !important;
+}
