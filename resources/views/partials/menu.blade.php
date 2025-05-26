@@ -41,10 +41,10 @@
 
                                     </ul>
                                 </li>
-                                <li class="has-mega gc_main_navigation"><a href="{{ url('gallerie') }}" class="gc_main_navigation hover_color"> gallerie&nbsp;</a></li>
+                                {{-- <li class="has-mega gc_main_navigation"><a href="{{ url('gallerie') }}" class="gc_main_navigation hover_color"> gallerie&nbsp;</a></li> --}}
                                 
                                 <li class="has-mega gc_main_navigation"><a href="{{url('about-us')}}" class="gc_main_navigation hover_color">A propos&nbsp; </a></li>
-                                <li class="has-mega gc_main_navigation"><a href="{{url('actualites')}}" class="gc_main_navigation hover_color">Actualité&nbsp; </a></li>
+                                {{-- <li class="has-mega gc_main_navigation"><a href="{{url('actualites')}}" class="gc_main_navigation hover_color">Actualité&nbsp; </a></li> --}}
                                 <li class="has-mega gc_main_navigation"><a href="{{url('contacts')}}" class="gc_main_navigation hover_color"> contacts&nbsp; </a>
                                 </li>
 
