@@ -11,9 +11,9 @@
                             </div>
                             <div class="footer_box_add">
                                 <ul>
-                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Address : </span>-512/fonia,canada</li>
-                                    <li><i class="fa fa-phone" aria-hidden="true"></i><span>Call us : </span>+61 5001444-122</li>
-                                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"><span>Email :</span> dummy@example.com</a></li>
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Addresse : </span>-512/fonia,canada</li>
+                                    <li><i class="fa fa-phone" aria-hidden="true"></i><span>Appelez-nouss : </span>+61 5001444-122</li>
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"><span>Email :</span> info@clinique-clemence.com</a></li>
                                 </ul>
                             </div>
                         </div>
