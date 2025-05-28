@@ -1073,7 +1073,7 @@ textarea:focus {
 	height: 50px;
 	float: left;
 	color: #ffffff;
-	background: #2ec8a6;
+	background: #00a4a3;
 	text-align: center;
 	line-height: 45px;
 	font-weight: 600;
@@ -1119,7 +1119,7 @@ textarea:focus {
 	border: 2px solid #2ec8a6;
 }
 .cc_slider_cont1 li:last-child a:hover {
-	background: #2ec8a6;
+	background: #00a4a3;
 	border: 2px solid #2ec8a6;
 	color: #ffffff;
 	-webkit-transition: all 0.5s;
@@ -1139,7 +1139,7 @@ textarea:focus {
 	z-index: 1000;
 }
 .cc_slider_cont1 h1 {
-	color: #2ec8a6;
+	color: #00a4a3;
 	font-size: 30px;
 	font-weight: bold;
 	background-color: #ffffff;
@@ -1150,7 +1150,7 @@ textarea:focus {
 	padding-left: 30px;
 }
 .cc_slider_cont1 h1 span {
-	background: #2ec8a6;
+	background: #00a4a3;
 	padding: 5px;
 	color: #ffffff;
 	font-size: 30px;
@@ -1247,7 +1247,7 @@ textarea:focus {
 .icon_wrapper:before {
 	content: '';
 	border-right: 120px solid transparent;
-	border-top: 120px solid #2ec8a6;
+	border-top: 120px solid #00a4a3;
 	position: absolute;
 	left: 0px;
 	top: 30px;
