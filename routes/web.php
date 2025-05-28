@@ -22,8 +22,8 @@ Route::get('/contacts', function(){
     return view('pages.contacts');
 });
 
-Route::get('/rdv', function(){
-    return view('pages.rdv');
+Route::get('/appointment', function(){
+    return view('pages.appointment');
 });
 
 Route::get('/specialites', function(){
