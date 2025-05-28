@@ -193,12 +193,12 @@ html {
 /*------------------custom css----------------*/
 
 a {
-	color: #2ec8a6;
+	color: #008888;
 	text-decoration: none;
 }
 a:hover,
 a:focus {
-	color: #2ec8a6;
+	color: #008888;
 	text-decoration: none;
 }
 a:focus {
@@ -384,7 +384,7 @@ textarea:focus {
 	width: auto;
 	width: 170px;
 	text-align: center;
-	background-color: #06cece;
+	background-color: #008888;
 	padding-top: 19px;
 	padding-bottom: 16px;
 }
@@ -439,7 +439,7 @@ textarea:focus {
 	width: 100%;
 }
 #link_list li:hover {
-	background-color: #2ec8a6;
+	background-color: #008888;
 }
 #toggle {
 	float: right;
@@ -1298,7 +1298,7 @@ textarea:focus {
 }
 .abt_heading_wrapper h1 {
 	margin: 0px 0px 0px 0px;
-	color: #111111;
+	color: #fffff;
 	font-size: 30px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -1310,7 +1310,7 @@ textarea:focus {
 }
 .abt_txt h3 {
 	font-size: 22px;
-	color: #2ec8a6;
+	color: #008888;
 	line-height: 36px;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -1318,7 +1318,7 @@ textarea:focus {
 .abt_txt p {
 	margin-top: 0px;
 	font-size: 16px;
-	color: #757575;
+	color: #008888;
 	font-family: 'Open Sans', sans-serif;
 	text-transform: capitalize;
 	line-height: 26px;
@@ -1347,7 +1347,7 @@ textarea:focus {
 }
 .content ul li i {
 	font-size: 16px;
-	color: #2ec8a6;
+	color: #008888;
 	margin-right: 20px;
 }
 /*************------appointment wrapper----------***********/
@@ -1357,7 +1357,7 @@ textarea:focus {
 	float: left;
 	width: 100%;
 	height: 100%;
-	background-color: white;
+	background-color: #008888;
 	background-position: center 0;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1371,7 +1371,7 @@ textarea:focus {
 	float: left;
 	width: 100%;
 	height: 100%;
-	background-color: white;
+	background-color: #008888;
 	background-position: center 0;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1533,7 +1533,7 @@ textarea:focus {
 	left: 0%;
 	right: 0%;
 	bottom: 0%;
-	background: #ffffffa3;
+	background: #008888;
 }
 .choose_heading_wrapper p {
 	text-align: justify;
@@ -1782,7 +1782,7 @@ textarea:focus {
 	transition: all 0.5s;
 }
 .team_about:hover .team_txt a {
-	color: #2ec8a6;
+	color: #008888;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -1850,7 +1850,7 @@ textarea:focus {
 .team_icon_hover {
 	float: left;
 	width: 100%;
-	background-color: #2ec8a6;
+	background-color: #008888;
 	font-size: 16px;
 	color: #ffffff;
 	position: absolute;
@@ -1900,7 +1900,7 @@ textarea:focus {
 	color: #ffffff;
 }
 .team_icon_hover ul li a:hover {
-	color: #e8eeed;
+	color: #008888;
 	transition: 0.4s;
 }
 .team_icon_hover ul li i:hover {

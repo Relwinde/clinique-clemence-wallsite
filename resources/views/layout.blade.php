@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--
 Template Name:DEEPMIND
@@ -11,7 +10,7 @@ Template Name:DEEPMIND
 
 <head>
     <meta charset="utf-8" />
-    <title>DEEPMIND- Hospital and Health HTML Template </title>
+    <title>Clinique Clémence </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="description" content="deepmind" />
     <meta name="keywords" content="medical/deepmind/hospital" />
@@ -60,18 +59,19 @@ Template Name:DEEPMIND
     <!--js code-->
     <script>
         function initMap() {
-            var uluru = {
-                lat: -36.742775,
-                lng: 174.731559
+            var newLocation = {
+                lat: 12.466153,
+                lng: -1.427369
             };
             var map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 15,
                 scrollwheel: false,
-                center: uluru
+                center: newLocation
             });
             var marker = new google.maps.Marker({
-                position: uluru,
-                map: map
+                position: newLocation,
+                map: map,
+                title: "Votre localisation" // Texte optionnel au survol
             });
         }
     </script>
