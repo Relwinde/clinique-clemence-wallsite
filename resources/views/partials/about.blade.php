@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
                 <div class="abt_img abt_box">
-                    <img src="images/abt_img.jpg" alt="img">
+                    <img src="images/consultation.jpg" alt="img">
                 </div>
             </div>
             <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 abt_section">

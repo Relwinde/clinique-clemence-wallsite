@@ -1,178 +1,167 @@
-    @extends('layout')
+@extends('layout')
 
-    @section('page')
+@section('page')
+    <!-- Section titre -->
+    <div class="med_tittle_section">
+        <div class="med_img_overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="med_tittle_cont_wrapper">
+                        <div class="med_tittle_cont">
+                            <h1>Prendre rendez-vous</h1>
+                            <ol class="breadcrumb">
+                                <li><a href="{{url('/')}}">Accueil</a></li>
+                                <li>Prenez un rendez-vous</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin section titre -->
 
+    <!-- Formulaire de rendez-vous -->
+    <div class="booking_wrapper med_toppadder100 book_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-lg-offset-2">
+                    <div class="team_heading_wrapper med_bottompadder50">
+                        <h1 class="med_bottompadder20">Prenez un rendez-vous</h1>
+                        <img src="images/Icon_team.png" alt="line" class="med_bottompadder20">
+                        <p>Prenez rendez-vous en ligne avec nos spécialistes. <br>
+                        Notre équipe vous contactera pour confirmer votre rendez-vous.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <!-- med_tittle_section -->
-        <div class="med_tittle_section">
-            <div class="med_img_overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="med_tittle_cont_wrapper">
-                            <div class="med_tittle_cont">
-                                <h1>book appointment</h1>
-                                <ol class="breadcrumb">
-                                    <li><a href="index.html">Home</a>
-                                    </li>
-                                    <li>Prenez un rendez-vous</li>
-                                </ol>
+        <div class="container">
+            <form class="booking_box">
+                <div class="box_side_icon">
+                    <img src="images/Icon_bk.png" alt="img">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="contect_form1">
+                                <input type="text" name="full_name" placeholder="Nom complet" class="require">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="contect_form1">
+                                <input type="text" name="email" placeholder="Email" class="require" data-valid="email" data-error="Veuillez entrer un email valide">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="contect_form1">
+                                <input type="text" name="contact_no" placeholder="Téléphone" class="require">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="contect_form1">
+                                <input type="text" name="subject" placeholder="Motif de consultation">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="contect_form3">
+                                <input type="text" name="date" placeholder="Date" class="require">
+                                <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="contect_form3">
+                                <input type="text" name="time" placeholder="Heure" class="require">
+                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="contect_form4">
+                                <textarea rows="4" name="message" placeholder="Message supplémentaire" class="require"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="response"></div>
+                            <div class="contect_btn">
+                                <button type="button" class="submitForm">Envoyer la demande</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <div class="chat_box">
+                <div class="booking_box_2">
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="booking_box_img">
+                                <img src="images/booking_call.png" alt="img" class="img-circle">
+                            </div>
+                            <div class="booking_chat">
+                                <h1>+33 1 23 45 67 89</h1>
+                                <p>Pour les urgences, contactez-nous directement par téléphone.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- med_tittle_section End -->
-        <!-- booking wrapper start -->
-        <div class="booking_wrapper med_toppadder100 book_section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-lg-offset-2">
-                        <div class="team_heading_wrapper med_bottompadder50">
-                            <h1 class="med_bottompadder20">Prenez un rendez-vous</h1>
-                            <img src="images/Icon_team.png" alt="line" class="med_bottompadder20">
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-                                <br> nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.
-                            </p>
-                        </div>
+    </div>
+    <!-- Fin formulaire de rendez-vous -->
+
+    <!-- Section disponibilités -->
+    <div class="booking_wrapper avail_section med_bottompadder90">
+        <div class="container">
+            <div class="row">
+                <div class="col--xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-lg-offset-2">
+                    <div class="team_heading_wrapper med_bottompadder50 wow fadeInDown" data-wow-delay="0.4s">
+                        <h1 class="med_bottompadder20">Disponibilités</h1>
+                        <img src="images/Icon_team.png" alt="line" class="med_bottompadder20">
+                        <p>Consultez nos créneaux disponibles et réservez en ligne. <br>
+                        Nos horaires sont adaptés pour répondre à vos besoins.</p>
                     </div>
                 </div>
-            </div>
-            <div class="container">
-
-                <form class="booking_box">
-                    <div class="box_side_icon">
-                        <img src="images/Icon_bk.png" alt="img">
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12  col-12">
-                                <div class="contect_form1">
-                                    <input type="text" name="full_name" placeholder="Full Name" class="require">
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12  col-12">
-                                <div class="contect_form1">
-                                    <input type="text" name="email" placeholder="Email" class="require" data-valid="email" data-error="Email should be valid.">
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12  col-12">
-                                <div class="contect_form1">
-                                    <input type="text" name="contact_no" placeholder="Phone" class="require">
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12  col-12">
-                                <div class="contect_form1">
-                                    <input type="text" name="subject" placeholder="Subject">
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12  col-12">
-                                <div class="contect_form3">
-                                    <input type="text" name="date" placeholder="Date" class="require"><i class="fa fa-calendar-o" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12  col-12">
-                                <div class="contect_form3">
-                                    <input type="text" name="time" placeholder="Time" class="require"><i class="fa fa-clock-o" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12  col-12">
-                                <div class="contect_form4">
-                                    <textarea rows="4" name="message" placeholder="Message" class="require"></textarea>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12  col-12">
-                                <div class="response"></div>
-                                <div class="contect_btn">
-                                    <button type="button" class="submitForm">Send a Message</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-
-                <div class="chat_box">
-                    <div class="booking_box_2">
-                        <div class="row">
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                <div class="booking_box_img">
-                                    <img src="images/booking_call.png" alt="img" class="img-circle">
-                                </div>
-                                <div class="booking_chat">
-                                    <h1>+1 800 383 88 90</h1>
-                                    <p>if urgent. Your personal case manager will ensure that you receive the best possible care.</p>
-                                </div>
-                                <div class="booking_btn">
-                                    <ul>
-                                        <li><a href="#">LIVE CHAT</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="map_main_wrapper">
-                <div id="map" style="width:100%; float:left; height:116px;"></div>
-            </div>
-        </div>
-        <!--booking wrapper end-->
-        <!--available_section start-->
-        <div class="booking_wrapper avail_section med_bottompadder90">
-            <div class="container">
-                <div class="row">
-                    <div class="col--xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-lg-offset-2">
-                        <div class="team_heading_wrapper med_bottompadder50 wow fadeInDown" data-wow-delay="0.4s">
-                            <h1 class="med_bottompadder20">Available Appointments</h1>
-                            <img src="images/Icon_team.png" alt="line" class="med_bottompadder20">
-                            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-                                <br>nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                        <div class="app">
-                            <div class="app__main">
-                                <div class="calendar">
-                                    <div id="calendar"></div>
-                                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="app">
+                        <div class="app__main">
+                            <div class="calendar">
+                                <div id="calendar"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--available_section end-->
-        <!--news wrapper start-->
-        <div class="newsletter_wrapper med_toppadder80 med_bottompadder70">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
-                        <div class="newsletter_text wow fadeOut" data-wow-delay="0.5s">
-                            <h3>Your First Step Towards Oral Health For Life Starts Here :</h3>
-                        </div>
+    </div>
+    <!-- Fin section disponibilités -->
+
+    <!-- Section newsletter -->
+    <div class="newsletter_wrapper med_toppadder80 med_bottompadder70">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
+                    <div class="newsletter_text wow fadeOut" data-wow-delay="0.5s">
+                        <h3>Votre première étape vers une meilleure santé commence ici :</h3>
                     </div>
-                    <div class="col-xl-2 col-lg-2 col-md-12 col-sm-6 col-6">
-                        <div class="contect_btn_news">
-                            <ul>
-                                <li><a href="#">Enquiry</a></li>
-                            </ul>
-                        </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-12 col-sm-6 col-6">
+                    <div class="contect_btn_news">
+                        <ul>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <!--news wrapper end-->
-    @endsection
+    </div>
+    <!-- Fin section newsletter -->
+@endsection
 
-        <!--footer wrapper end-->
-        <!--main js files-->
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.countTo.js"></script>
-        <script src="js/jquery.inview.min.js"></script>
-        <script src="js/wow.min.js"></script>
-        <script src="js/owl.carousel.js"></script>
-        <script src="js/jquery.magnific-popup.js"></script>
-        <script src="js/custom.js"></script>
-        <!--js code-->
-        <!--js code-->
+<!-- Scripts -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.countTo.js"></script>
+<script src="js/jquery.inview.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/jquery.magnific-popup.js"></script>
+<script src="js/custom.js"></script>

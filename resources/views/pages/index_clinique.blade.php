@@ -25,7 +25,7 @@
              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-lg-offset-2">
                  <div class="team_heading_wrapper med_bottompadder40 wow fadeInDown" data-wow-delay="0.5s">
                      <h1 class="med_bottompadder20">MEET OUR SPECIALISTS</h1>
-                     <img src="images/Icon_team.png" alt="line" class="med_bottompadder20">
+                     <img src="{{asset('images/Icon_team.png')}}" alt="line" class="med_bottompadder20">
                      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
                          <br> nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.
                      </p>
@@ -144,7 +144,7 @@
                                              </svg>
                                          </div>
                                          <div class="team_img">
-                                             <img src="images/team_2.jpg" alt="img" class="img-responsive">
+                                             <img src="{{asset('images/team_2.jpg')}}" alt="img" class="img-responsive">
                                          </div>
                                          <div class="team_txt">
                                              <h1><a href="#">Dr. Johan Doe</a></h1>

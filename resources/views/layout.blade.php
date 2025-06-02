@@ -29,6 +29,12 @@ Template Name:DEEPMIND
     <link rel="stylesheet" type="text/css" href="{{asset('css/responsive.css')}}" />
     <!-- favicon link-->
     <link rel="shortcut icon" type="image/icon" href="{{asset('images/Iconpic.png')}}" />
+
+    <!-- CSS Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -56,6 +62,7 @@ Template Name:DEEPMIND
     <script src="{{asset('js/owl.carousel.js')}}"></script>
     <script src="{{asset('js/jquery.magnific-popup.js')}}"></script>
     <script src="{{asset('js/custom.js')}}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <!--js code-->
     <script>
         function initMap() {
