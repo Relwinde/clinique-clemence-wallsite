@@ -9,7 +9,7 @@
                             </div>
                             <div class="count-description">
                                 <span class="timer">2340</span>
-                                <h5 class="con1">Satisfied Patients</h5>
+                                <h5 class="con1">Patients satisfaits</h5>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
@@ -18,7 +18,7 @@
                             </div>
                             <div class="count-description">
                                 <span class="timer">335</span>
-                                <h5 class="con2">doctor's team</h5>
+                                <h5 class="con2">Membres du corps médical</h5>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
@@ -27,7 +27,7 @@
                             </div>
                             <div class="count-description">
                                 <span class="timer">1305</span>
-                                <h5 class="con2">success mission</h5>
+                                <h5 class="con2">Missions réussies</h5>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
@@ -36,7 +36,7 @@
                             </div>
                             <div class="count-description">
                                 <span class="timer">1540</span>
-                                <h5 class="con4">Successfull Surgeries</h5>
+                                <h5 class="con4">Chirurgies réussies</h5>
                             </div>
                         </div>
                     </div>

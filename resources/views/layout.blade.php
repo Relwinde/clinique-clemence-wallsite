@@ -35,6 +35,9 @@ Template Name:DEEPMIND
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
 
 <body>
@@ -85,6 +88,21 @@ Template Name:DEEPMIND
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBctr8WYTfFDi_oGbPEolSDzn4VZaAKVK0&callback=initMap">
     </script>
     <!-- map Script-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            items: 1,         // Nombre d'éléments à afficher
+            loop: true,       // Boucle infinie
+            autoplay: true,   // Défilement automatique
+            autoplayTimeout: 3000, // Temps entre chaque slide (3s)
+            autoplayHoverPause: true // Pause au survol
+        });
+    });
+</script>   
 </body>
 
 </html>

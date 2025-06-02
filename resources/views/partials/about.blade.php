@@ -12,17 +12,18 @@
                     <img src="images/line.png" alt="title" class="med_bottompadder20">
                 </div>
                 <div class="abt_txt">
-                    <h3>Specialty Medicine with Compassion and Car Proin gravida nibh vel velit</h3>
-                    <p class="med_toppadder20">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, aks lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate..</p>
-                    <p>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit.</p>
+                    <h3>MÉDECINE SPÉCIALISÉE AVEC COMPASSION ET PROFESSIONNALISME</h3>
+                    <p class="med_toppadder20">Notre équipe de spécialistes offre des soins médicaux de qualité dans un environnement accueillant et humain. Nous mettons un point d’honneur à offrir une prise en charge complète et personnalisée pour chaque patient.
+
+Nous disposons d’un large éventail de spécialités médicales pour répondre à tous vos besoins de santé. Notre objectif est d’assurer un accompagnement médical rigoureux, que ce soit pour des consultations, des diagnostics ou des traitements spécialisés.</p>
                 </div>
                 <div class="abt_chk med_toppadder30">
                     <div class="content">
                         <ul>
-                            <li><i class="fa fa-check-square-o" aria-hidden="true"></i><span>Health Care For All Types</span></li>
-                            <li><i class="fa fa-check-square-o" aria-hidden="true"></i><span>Emergency Services</span></li>
-                            <li><i class="fa fa-check-square-o" aria-hidden="true"></i><span>Dental Care Dentist.</span></li>
-                            <li><i class="fa fa-check-square-o" aria-hidden="true"></i><span>24/7 Services</span></li>
+                            <li><i class="fa fa-check-square-o" aria-hidden="true"></i><span>Soins médicaux pour tous types de pathologies</span></li>
+                            <li><i class="fa fa-check-square-o" aria-hidden="true"></i><span> Services d'urgence</span></li>
+                            <li><i class="fa fa-check-square-o" aria-hidden="true"></i><span>Soins dentaires spécialisés</span></li>
+                            <li><i class="fa fa-check-square-o" aria-hidden="true"></i><span>Disponibilité 24h/24 et 7j/7</span></li>
                         </ul>
                     </div>
                 </div>

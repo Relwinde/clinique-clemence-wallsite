@@ -24,10 +24,10 @@
          <div class="row">
              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-lg-offset-2">
                  <div class="team_heading_wrapper med_bottompadder40 wow fadeInDown" data-wow-delay="0.5s">
-                     <h1 class="med_bottompadder20">MEET OUR SPECIALISTS</h1>
+                     <h1 class="med_bottompadder20">RENCONTREZ NOS SPÉCIALISTES</h1>
                      <img src="{{asset('images/Icon_team.png')}}" alt="line" class="med_bottompadder20">
-                     <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-                         <br> nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.
+                     <p>Nos médecins spécialistes allient expertise et humanité pour vous offrir des soins personnalisés.
+                         <br> Avec des années d'expérience et une formation pointue dans leurs domaines respectifs, ils s'engagent à vous accompagner vers une santé optimale.
                      </p>
                  </div>
              </div>
@@ -82,7 +82,7 @@
                                              </svg>
                                          </div>
                                          <div class="team_img">
-                                             <img src="images/team_1.jpg" alt="img" class="img-responsive">
+                                             <img src="{{asset('images/team_1.jpg')}}" alt="img" class="img-responsive">
                                          </div>
                                          <div class="team_txt">
                                              <h1><a href="#">Dr. Johan Doe</a></h1>
