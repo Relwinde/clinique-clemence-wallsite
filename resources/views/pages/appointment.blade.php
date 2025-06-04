@@ -29,7 +29,7 @@
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-lg-offset-2">
                     <div class="team_heading_wrapper med_bottompadder50">
                         <h1 class="med_bottompadder20">Prenez un rendez-vous</h1>
-                        <img src="images/Icon_team.png" alt="line" class="med_bottompadder20">
+                        <img src="{{asset('images/Icon_team.png')}}" alt="line" class="med_bottompadder20">
                         <p>Prenez rendez-vous en ligne avec nos spécialistes. <br>
                         Notre équipe vous contactera pour confirmer votre rendez-vous.</p>
                     </div>
@@ -94,7 +94,7 @@
                     <div class="row">
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <div class="booking_box_img">
-                                <img src="images/booking_call.png" alt="img" class="img-circle">
+                                <img src="{{asset('images/booking_call.png')}}" alt="img" class="img-circle">
                             </div>
                             <div class="booking_chat">
                                 <h1>+33 1 23 45 67 89</h1>
@@ -157,11 +157,11 @@
 @endsection
 
 <!-- Scripts -->
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.countTo.js"></script>
-<script src="js/jquery.inview.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="js/jquery.magnific-popup.js"></script>
-<script src="js/custom.js"></script>
+<script src="{{asset('js/jquery-3.3.1.min.js')}}"></script>
+<script src="{{asset('js/bootstrap.min.js')}}"></script>
+<script src="{{asset('js/jquery.countTo.js')}}"></script>
+<script src="{{asset('js/jquery.inview.min.js')}}"></script>
+<script src="{{asset('js/wow.min.js')}}"></script>
+<script src="{{asset('js/owl.carousel.js')}}"></script>
+<script src="{{asset('js/jquery.magnific-popup.js')}}"></script>
+<script src="{{asset('js/custom.js')}}"></script>

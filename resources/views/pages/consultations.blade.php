@@ -369,7 +369,7 @@
     .consultation-header-section {
         position: relative;
         padding: 100px 0;
-        background: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center;
+        background: url('images/slider-4.jpg') no-repeat center center;
         background-size: cover;
     }
 

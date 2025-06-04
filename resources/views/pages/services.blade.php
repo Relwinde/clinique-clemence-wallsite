@@ -261,436 +261,481 @@
 </section>
 
 <style>
-/* Global Styles */
-:root {
-    --primary-color: #008888;
-    --secondary-color: #e74c3c;
-    --text-color: #333;
-    --light-gray: #f8f9fa;
-    --dark-gray: #555;
-}
-
-body {
-    font-family: 'Roboto', 'Segoe UI', sans-serif;
-    color: var(--text-color);
-    line-height: 1.6;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.bg-light {
-    background-color: var(--light-gray);
-}
-
-/* Hero Section */
-.medical-hero {
-    position: relative;
-    height: 400px;
-    background: url('https://images.unsplash.com/photo-1581595219315-a187dd40c322?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: white;
-}
-
-.hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-}
-
-.hero-content {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-}
-
-.medical-hero h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-}
-
-.breadcrumb {
-    justify-content: center;
-    background: transparent;
-    padding: 0;
-}
-
-.breadcrumb-item a {
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-}
-
-.breadcrumb-item.active {
-    color: white;
-}
-
-.breadcrumb-item+.breadcrumb-item::before {
-    color: rgba(255, 255, 255, 0.5);
-}
-
-/* Section Header */
-.section-header {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.section-header h2 {
-    color: var(--primary-color);
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-}
-
-.divider {
-    width: 80px;
-    height: 3px;
-    background: var(--primary-color);
-    margin: 0 auto 20px;
-}
-
-.section-header p {
-    color: var(--dark-gray);
-    font-size: 1.1rem;
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-/* Consultation Section */
-.consultation-types {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    margin-top: 40px;
-}
-
-.consultation-card {
-    background: white;
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease;
-    text-align: center;
-    border-top: 4px solid var(--primary-color);
-}
-
-.consultation-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0, 136, 136, 0.1);
-}
-
-.consultation-icon {
-    font-size: 2.5rem;
-    color: var(--primary-color);
-    margin-bottom: 20px;
-}
-
-.consultation-card h3 {
-    color: var(--primary-color);
-    margin-bottom: 20px;
-    font-size: 1.3rem;
-}
-
-.consultation-card ul {
-    text-align: left;
-    margin-bottom: 25px;
-    padding-left: 20px;
-}
-
-.consultation-card li {
-    margin-bottom: 8px;
-    position: relative;
-}
-
-.consultation-card li::before {
-    content: "•";
-    color: var(--primary-color);
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-}
-
-.btn-consultation {
-    display: inline-block;
-    background: var(--primary-color);
-    color: white;
-    padding: 10px 25px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: background 0.3s ease;
-}
-
-.btn-consultation:hover {
-    background: #006666;
-}
-
-/* Care Process Section */
-.process-steps {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 30px;
-    margin-top: 40px;
-}
-
-.process-step {
-    background: white;
-    border-radius: 10px;
-    padding: 30px 20px;
-    text-align: center;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-}
-
-.step-number {
-    width: 50px;
-    height: 50px;
-    background: var(--primary-color);
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 0 auto 20px;
-}
-
-.process-step h3 {
-    color: var(--primary-color);
-    margin-bottom: 15px;
-    font-size: 1.2rem;
-}
-
-.process-step p {
-    color: var(--dark-gray);
-}
-
-/* Hospitalization Section */
-.hospitalization-options {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    margin-top: 40px;
-}
-
-.option-card {
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease;
-}
-
-.option-card:hover {
-    transform: translateY(-10px);
-}
-
-.option-image img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.option-content {
-    padding: 25px;
-}
-
-.option-content h3 {
-    color: var(--primary-color);
-    margin-bottom: 15px;
-    font-size: 1.3rem;
-}
-
-.option-content ul {
-    margin-bottom: 0;
-    padding-left: 20px;
-}
-
-.option-content li {
-    margin-bottom: 8px;
-    position: relative;
-}
-
-.option-content li::before {
-    content: "•";
-    color: var(--primary-color);
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-}
-
-/* Specialties Section */
-.specialties-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    margin-top: 40px;
-}
-
-.specialty-card {
-    background: white;
-    border-radius: 10px;
-    padding: 30px 20px;
-    text-align: center;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    transition: transform 0.3s ease;
-}
-
-.specialty-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0, 136, 136, 0.1);
-}
-
-.specialty-icon {
-    font-size: 2rem;
-    color: var(--primary-color);
-    margin-bottom: 20px;
-}
-
-.specialty-card h3 {
-    color: var(--primary-color);
-    margin-bottom: 15px;
-    font-size: 1.2rem;
-}
-
-.specialty-card p {
-    color: var(--dark-gray);
-    font-size: 0.9rem;
-}
-
-.btn-view-all {
-    display: inline-flex;
-    align-items: center;
-    background: var(--primary-color);
-    color: white;
-    padding: 12px 30px;
-    border-radius: 50px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: background 0.3s ease;
-}
-
-.btn-view-all i {
-    margin-left: 8px;
-    font-size: 0.8rem;
-}
-
-.btn-view-all:hover {
-    background: #006666;
-    color: white;
-}
-
-/* CTA Section */
-.service-cta {
-    padding: 60px 0;
-    background: var(--primary-color);
-    color: white;
-    text-align: center;
-}
-
-.cta-content h3 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-}
-
-.cta-content p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-    opacity: 0.9;
-}
-
-.cta-btn {
-    display: inline-flex;
-    align-items: center;
-    background: white;
-    color: var(--primary-color);
-    padding: 12px 30px;
-    border-radius: 50px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.cta-btn i {
-    margin-left: 10px;
-}
-
-.cta-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    color: var(--primary-color);
-}
-
-/* Responsive */
-@media (max-width: 992px) {
-    .consultation-types {
-        grid-template-columns: 1fr 1fr;
+    /* Global Styles */
+    :root {
+        --primary-color: #008888;
+        --secondary-color: #e74c3c;
+        --text-color: #333;
+        --light-gray: #f8f9fa;
+        --dark-gray: #555;
     }
-    
-    .hospitalization-options {
-        grid-template-columns: 1fr 1fr;
-    }
-}
 
-@media (max-width: 768px) {
+    body {
+        font-family: 'Roboto', 'Segoe UI', sans-serif;
+        color: var(--text-color);
+        line-height: 1.6;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .bg-light {
+        background-color: var(--light-gray);
+    }
+
+    /* Section Spacing */
+    section {
+        padding: 80px 0;
+    }
+
+    section.bg-light {
+        padding: 80px 0;
+    }
+
+    section:last-of-type {
+        padding-bottom: 80px;
+    }
+
+    /* Hero Section */
+    .medical-hero {
+        position: relative;
+        height: 400px;
+        background: url('images/appoint_img.jpg') center/cover no-repeat;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: white;
+        margin-bottom: 80px;
+    }
+
+    .hero-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .hero-content {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+    }
+
     .medical-hero h1 {
-        font-size: 2.2rem;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-transform: uppercase;
     }
-    
-    .section-header h2 {
-        font-size: 1.6rem;
-    }
-    
-    .consultation-types,
-    .hospitalization-options,
-    .process-steps {
-        grid-template-columns: 1fr;
-    }
-    
-    .specialties-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-}
 
-@media (max-width: 576px) {
-    .specialties-grid {
-        grid-template-columns: 1fr;
+    .breadcrumb {
+        justify-content: center;
+        background: transparent;
+        padding: 0;
     }
-}
+
+    .breadcrumb-item a {
+        color: rgba(255, 255, 255, 0.8);
+        text-decoration: none;
+    }
+
+    .breadcrumb-item.active {
+        color: white;
+    }
+
+    .breadcrumb-item+.breadcrumb-item::before {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    /* Section Header */
+    .section-header {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .section-header h2 {
+        color: var(--primary-color);
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+
+    .divider {
+        width: 80px;
+        height: 3px;
+        background: var(--primary-color);
+        margin: 0 auto 20px;
+    }
+
+    .section-header p {
+        color: var(--dark-gray);
+        font-size: 1.1rem;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    /* Consultation Section */
+    .consultation-types {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .consultation-card {
+        background: white;
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease;
+        text-align: center;
+        border-top: 4px solid var(--primary-color);
+    }
+
+    .consultation-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0, 136, 136, 0.1);
+    }
+
+    .consultation-icon {
+        font-size: 2.5rem;
+        color: var(--primary-color);
+        margin-bottom: 20px;
+    }
+
+    .consultation-card h3 {
+        color: var(--primary-color);
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+    }
+
+    .consultation-card ul {
+        text-align: left;
+        margin-bottom: 25px;
+        padding-left: 20px;
+    }
+
+    .consultation-card li {
+        margin-bottom: 8px;
+        position: relative;
+    }
+
+    .consultation-card li::before {
+        content: "•";
+        color: var(--primary-color);
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+
+    .btn-consultation {
+        display: inline-block;
+        background: var(--primary-color);
+        color: white;
+        padding: 10px 25px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background 0.3s ease;
+    }
+
+    .btn-consultation:hover {
+        background: #006666;
+    }
+
+    /* Care Process Section */
+    .process-steps {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .process-step {
+        background: white;
+        border-radius: 10px;
+        padding: 30px 20px;
+        text-align: center;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    .step-number {
+        width: 50px;
+        height: 50px;
+        background: var(--primary-color);
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 0 auto 20px;
+    }
+
+    .process-step h3 {
+        color: var(--primary-color);
+        margin-bottom: 15px;
+        font-size: 1.2rem;
+    }
+
+    .process-step p {
+        color: var(--dark-gray);
+    }
+
+    /* Hospitalization Section */
+    .hospitalization-options {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .option-card {
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease;
+    }
+
+    .option-card:hover {
+        transform: translateY(-10px);
+    }
+
+    .option-image img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .option-content {
+        padding: 25px;
+    }
+
+    .option-content h3 {
+        color: var(--primary-color);
+        margin-bottom: 15px;
+        font-size: 1.3rem;
+    }
+
+    .option-content ul {
+        margin-bottom: 0;
+        padding-left: 20px;
+    }
+
+    .option-content li {
+        margin-bottom: 8px;
+        position: relative;
+    }
+
+    .option-content li::before {
+        content: "•";
+        color: var(--primary-color);
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+
+    /* Specialties Section */
+    .specialties-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .specialty-card {
+        background: white;
+        border-radius: 10px;
+        padding: 30px 20px;
+        text-align: center;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease;
+    }
+
+    .specialty-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0, 136, 136, 0.1);
+    }
+
+    .specialty-icon {
+        font-size: 2rem;
+        color: var(--primary-color);
+        margin-bottom: 20px;
+    }
+
+    .specialty-card h3 {
+        color: var(--primary-color);
+        margin-bottom: 15px;
+        font-size: 1.2rem;
+    }
+
+    .specialty-card p {
+        color: var(--dark-gray);
+        font-size: 0.9rem;
+    }
+
+    .btn-view-all {
+        display: inline-flex;
+        align-items: center;
+        background: var(--primary-color);
+        color: white;
+        padding: 12px 30px;
+        border-radius: 50px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background 0.3s ease;
+        margin-top: 40px;
+    }
+
+    .btn-view-all i {
+        margin-left: 8px;
+        font-size: 0.8rem;
+    }
+
+    .btn-view-all:hover {
+        background: #006666;
+        color: white;
+    }
+
+    /* CTA Section */
+    .service-cta {
+        padding: 80px 0;
+        background: var(--primary-color);
+        color: white;
+        text-align: center;
+    }
+
+    .cta-content h3 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    .cta-content p {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+        opacity: 0.9;
+    }
+
+    .cta-btn {
+        display: inline-flex;
+        align-items: center;
+        background: white;
+        color: var(--primary-color);
+        padding: 12px 30px;
+        border-radius: 50px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .cta-btn i {
+        margin-left: 10px;
+    }
+
+    .cta-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        color: var(--primary-color);
+    }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+        .consultation-types {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .hospitalization-options {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    @media (max-width: 768px) {
+        section {
+            padding: 60px 0;
+        }
+
+        section.bg-light {
+            padding: 60px 0;
+        }
+
+        .medical-hero {
+            margin-bottom: 60px;
+        }
+
+        .medical-hero h1 {
+            font-size: 2.2rem;
+        }
+
+        .section-header {
+            margin-bottom: 40px;
+        }
+
+        .section-header h2 {
+            font-size: 1.6rem;
+        }
+
+        .consultation-types,
+        .hospitalization-options,
+        .process-steps {
+            grid-template-columns: 1fr;
+        }
+
+        .specialties-grid {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    @media (max-width: 576px) {
+        section {
+            padding: 50px 0;
+        }
+
+        section.bg-light {
+            padding: 50px 0;
+        }
+
+        .medical-hero {
+            margin-bottom: 50px;
+        }
+
+        .specialties-grid {
+            grid-template-columns: 1fr;
+        }
+    }
 </style>
 
 <script>
-// Simple animation for process steps
-document.addEventListener('DOMContentLoaded', function() {
-    const steps = document.querySelectorAll('.process-step');
-    
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.style.opacity = 1;
-                entry.target.style.transform = 'translateY(0)';
-            }
+    // Simple animation for process steps
+    document.addEventListener('DOMContentLoaded', function() {
+        const steps = document.querySelectorAll('.process-step');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, {
+            threshold: 0.1
         });
-    }, { threshold: 0.1 });
-    
-    steps.forEach(step => {
-        step.style.opacity = 0;
-        step.style.transform = 'translateY(20px)';
-        step.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-        observer.observe(step);
+
+        steps.forEach(step => {
+            step.style.opacity = 0;
+            step.style.transform = 'translateY(20px)';
+            step.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            observer.observe(step);
+        });
     });
-});
 </script>
 @endsection

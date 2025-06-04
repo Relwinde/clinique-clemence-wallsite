@@ -13,7 +13,7 @@
                         <div class="med_tittle_cont">
                             <h1>Contact Us</h1>
                             <ol class="breadcrumb">
-                                <li><a href="index.html">Home</a>
+                                <li><a href="{{url('/')}}">Acceuil</a>
                                 </li>
                                 <li>Contact</li>
                             </ol>
@@ -30,9 +30,9 @@
             <div class="row">
                 <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
                     <div class="choose_heading_wrapper med_bottompadder30">
-                        <h1 class="med_bottompadder20">Contact us</h1>
+                        <h1 class="med_bottompadder20">Contactez nous !</h1>
                         <img src="images/line.png" alt="title" class="med_bottompadder20">
-                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.</p>
+                        <p>Envoyez nous simplement un message en remplissant ce formulaire</p>
                     </div>
 
                     <form>
@@ -66,7 +66,7 @@
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                     <div class="response"></div>
                                     <div class="contact_btn_wrapper med_toppadder30">
-                                        <button type="button" class="submitForm">submit</button>
+                                        <button type="button" class="submitForm">Envoyer</button>
                                     </div>
                                 </div>
                             </div>
@@ -132,6 +132,7 @@
     </div>
     <!-- dc category section end-->
     <!--news section start-->
+     <!--
     <div class="news_section_dc">
         <div class="container">
             <div class="row">
@@ -150,8 +151,8 @@
             </div>
         </div>
     </div>
-    <!--news section end-->
-    <!--partner wrapper start-->
+    news section end
+    
     <div class="partner_wrapper med_bottompadder70 med_toppadder80">
         <div class="container">
             <div class="row">
@@ -182,8 +183,8 @@
             </div>
         </div>
     </div>
-    <!--partner wrapper end-->
-    <!--news wrapper start-->
+    
+    
     <div class="newsletter_wrapper med_toppadder80 med_bottompadder70">
         <div class="container">
             <div class="row">
@@ -202,18 +203,19 @@
             </div>
         </div>
     </div>
+    -->
     <!--news wrapper end-->
     @endsection
     <!--footer wrapper end-->
     <!--main js files-->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.countTo.js"></script>
-    <script src="js/jquery.inview.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/jquery.magnific-popup.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="{{asset('js/jquery-3.3.1.min.js')}}"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('js/jquery.countTo.js')}}"></script>
+    <script src="{{asset('js/jquery.inview.min.js')}}"></script>
+    <script src="{{asset('js/wow.min.js')}}"></script>
+    <script src="{{asset('js/owl.carousel.js')}}"></script>
+    <script src="{{asset('js/jquery.magnific-popup.js')}}"></script>
+    <script src="{{asset('js/custom.js')}}"></script>
     <!--js code-->
     <script>
         function initMap() {
