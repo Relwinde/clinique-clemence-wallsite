@@ -22,18 +22,7 @@
     </div>
 </div>
 
-<!-- Bandeau alerte urgences -->
-<div class="urgence-alert-banner">
-    <div class="container">
-        <div class="urgence-alert-content">
-            <i class="fa fa-exclamation-triangle"></i>
-            <div>
-                <h3>En cas d'urgence vitale</h3>
-                <p>Composez immédiatement le <strong>15 (SAMU)</strong> ou le <strong>112 (numéro d'urgence européen)</strong></p>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 <!-- Section services d'urgence -->
 <div class="team_wrapper med_toppadder80">

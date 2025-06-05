@@ -183,8 +183,7 @@
                         <li><i class="fas fa-check"></i> Interprétation par nos biologistes médicaux</li>
                     </ul>
                     <div class="about-cta">
-                        <a href="/contact" class="btn btn-primary">Prendre rendez-vous</a>
-                        <a href="/espace-patient" class="btn btn-outline">Accéder à mes résultats</a>
+                        <a href="{{url('appointment')}}" class="btn btn-primary">Prendre rendez-vous</a>
                     </div>
                 </div>
             </div>

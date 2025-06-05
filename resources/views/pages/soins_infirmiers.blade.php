@@ -125,7 +125,7 @@
                         <li>Éducation thérapeutique pour l'autonomie du patient</li>
                     </ul>
                     <div class="padding-top-30">
-                        <a href="#" class="nursing-primary-btn">Prendre rendez-vous <i class="fa fa-calendar"></i></a>
+                        <a href="{{ url('appointment') }}" class="nursing-primary-btn">Prendre rendez-vous <i class="fa fa-calendar"></i></a>
                     </div>
                 </div>
             </div>
@@ -219,7 +219,7 @@
                     </div>
                     <h3>Contactez-nous</h3>
                     <p>Service infirmier disponible du lundi au samedi de 7h à 20h.</p>
-                    <a href="tel:+33123456789" class="nursing-secondary-btn">Appeler</a>
+                    <a href="tel:+22676730818" class="nursing-secondary-btn">Appeler</a>
                 </div>
             </div>
         </div>
