@@ -144,7 +144,7 @@
                                              </svg>
                                          </div>
                                          <div class="team_img">
-                                             <img src="{{asset('images/team_2.jpg')}}" alt="img" class="img-responsive">
+                                             <img src="{{asset('images/team_1.jpg')}}" alt="img" class="img-responsive">
                                          </div>
                                          <div class="team_txt">
                                              <h1><a href="#">Dr. Johan Doe</a></h1>
@@ -206,7 +206,7 @@
                                              </svg>
                                          </div>
                                          <div class="team_img">
-                                             <img src="images/team_3.jpg" alt="img" class="img-responsive">
+                                             <img src="images/team_1.jpg" alt="img" class="img-responsive">
                                          </div>
                                          <div class="team_txt">
                                              <h1><a href="#">Dr. Johan Doe</a></h1>
@@ -268,7 +268,7 @@
                                              </svg>
                                          </div>
                                          <div class="team_img">
-                                             <img src="images/team_4.jpg" alt="img" class="img-responsive">
+                                             <img src="images/team_1.jpg" alt="img" class="img-responsive">
                                          </div>
                                          <div class="team_txt">
                                              <h1><a href="#">Dr. Johan Doe</a></h1>
@@ -396,7 +396,7 @@
                                              </svg>
                                          </div>
                                          <div class="team_img">
-                                             <img src="images/team_2.jpg" alt="img" class="img-responsive">
+                                             <img src="images/team_1.jpg" alt="img" class="img-responsive">
                                          </div>
                                          <div class="team_txt">
                                              <h1><a href="#">Dr. Johan Doe</a></h1>
@@ -458,7 +458,7 @@
                                              </svg>
                                          </div>
                                          <div class="team_img">
-                                             <img src="images/team_3.jpg" alt="img" class="img-responsive">
+                                             <img src="images/team_1.jpg" alt="img" class="img-responsive">
                                          </div>
                                          <div class="team_txt">
                                              <h1><a href="#">Dr. Johan Doe</a></h1>
@@ -648,7 +648,7 @@
                                              </svg>
                                          </div>
                                          <div class="team_img">
-                                             <img src="images/team_2.jpg" alt="img" class="img-responsive">
+                                             <img src="images/team_1.jpg" alt="img" class="img-responsive">
                                          </div>
                                          <div class="team_txt">
                                              <h1><a href="#">Dr. Johan Doe</a></h1>
@@ -710,7 +710,7 @@
                                              </svg>
                                          </div>
                                          <div class="team_img">
-                                             <img src="images/team_3.jpg" alt="img" class="img-responsive">
+                                             <img src="images/team_1.jpg" alt="img" class="img-responsive">
                                          </div>
                                          <div class="team_txt">
                                              <h1><a href="#">Dr. Johan Doe</a></h1>
@@ -772,7 +772,7 @@
                                              </svg>
                                          </div>
                                          <div class="team_img">
-                                             <img src="images/team_4.jpg" alt="img" class="img-responsive">
+                                             <img src="images/team_1.jpg" alt="img" class="img-responsive">
                                          </div>
                                          <div class="team_txt">
                                              <h1><a href="#">Dr. Johan Doe</a></h1>
@@ -844,13 +844,13 @@
                                              <img src="images/event_1.jpg" alt="img" class="img-responsive">
                                          </div>
                                          <div class="event_icon1">
-                                             <h2><a href="#">Together we can do so much</a></h2>
+                                             <h2><a href="#">Campagne de vaccination</a></h2>
                                              <ul>
                                                  <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>
-                                                         ,UK</a></li>
-                                                 <li><i class="fa fa-calendar-o" aria-hidden="true"></i>24 Nov, 2020</li>
+                                                         Clinique Clémence</a></li>
+                                                 <li><i class="fa fa-calendar-o" aria-hidden="true"></i>24 Juin, 2025</li>
                                              </ul>
-                                             <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                             <p>Au sein de la clinique clémence.</p>
                                          </div>
                                      </div>
                                      <div class="img_section d-none d-sm-none d-md-none d-lg-block">
@@ -858,16 +858,16 @@
                                              <i class="fa fa-star-o" aria-hidden="true"></i>
                                          </div>
                                          <div class="img_wrapper1">
-                                             <img src="images/event_2.jpg" alt="img" class="img-responsive">
+                                             <img src="images/event_1.jpg" alt="img" class="img-responsive">
                                          </div>
                                          <div class="event_icon1">
-                                             <h2><a href="#">Together we can do so much</a></h2>
+                                             <h2><a href="#">Campagne de vaccination</a></h2>
                                              <ul>
-                                                 <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>California,UK</a></li>
-                                                 <li><i class="fa fa-calendar-o" aria-hidden="true"></i>24 Nov, 2020</li>
+                                                 <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>Ouaga, clinique clémence</a></li>
+                                                 <li><i class="fa fa-calendar-o" aria-hidden="true"></i>26 Juin 2026</li>
 
                                              </ul>
-                                             <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                             <p>Sortez massivement vous faire vacciner</p>
 
                                          </div>
                                      </div>
@@ -878,15 +878,15 @@
                                              <i class="fa fa-star-o" aria-hidden="true"></i>
                                          </div>
                                          <div class="img_wrapper1">
-                                             <img src="images/event_3.jpg" alt="img" class="img-responsive">
+                                             <img src="images/event_1.jpg" alt="img" class="img-responsive">
                                          </div>
                                          <div class="event_icon1">
-                                             <h2><a href="#">Together we can do so much</a></h2>
+                                             <h2><a href="#">Consultation gratuite</a></h2>
                                              <ul>
-                                                 <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>California,UK</a></li>
+                                                 <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>Clinique Clémence</a></li>
                                                  <li><i class="fa fa-calendar-o" aria-hidden="true"></i>24 Nov, 2020</li>
                                              </ul>
-                                             <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                             <p>Campagne de vaccination</p>
                                          </div>
                                      </div>
                                      <div class="img_section d-none d-sm-none d-md-none d-lg-block">
@@ -894,15 +894,15 @@
                                              <i class="fa fa-star-o" aria-hidden="true"></i>
                                          </div>
                                          <div class="img_wrapper1">
-                                             <img src="images/event_4.jpg" alt="img" class="img-responsive">
+                                             <img src="images/event_1.jpg" alt="img" class="img-responsive">
                                          </div>
                                          <div class="event_icon1">
-                                             <h2><a href="#">Together we can do so much</a></h2>
+                                             <h2><a href="#">Campagne de vaccination paludisme</a></h2>
                                              <ul>
-                                                 <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>California,UK</a></li>
+                                                 <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>Ouaga, clinique de l'unité</a></li>
                                                  <li><i class="fa fa-calendar-o" aria-hidden="true"></i>24 Nov, 2020</li>
                                              </ul>
-                                             <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                             <p>GRATUITE</p>
                                          </div>
                                      </div>
                                  </div>
@@ -919,12 +919,12 @@
                                              <img src="images/event_1.jpg" alt="img" class="img-responsive">
                                          </div>
                                          <div class="event_icon1">
-                                             <h2><a href="#">Together we can do so much</a></h2>
+                                             <h2><a href="#">Vaccin epathite gratuite</a></h2>
                                              <ul>
-                                                 <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>California,UK</a></li>
+                                                 <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>Clinique clémence</a></li>
                                                  <li><i class="fa fa-calendar-o" aria-hidden="true"></i>24 Nov, 2020</li>
                                              </ul>
-                                             <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                             <p>GRATUITE.</p>
                                          </div>
                                      </div>
                                      <div class="img_section d-none d-sm-none d-md-none d-lg-block">
@@ -932,15 +932,15 @@
                                              <i class="fa fa-star-o" aria-hidden="true"></i>
                                          </div>
                                          <div class="img_wrapper1">
-                                             <img src="images/event_2.jpg" alt="img" class="img-responsive">
+                                             <img src="images/event_1.jpg" alt="img" class="img-responsive">
                                          </div>
                                          <div class="event_icon1">
-                                             <h2><a href="#">Together we can do so much</a></h2>
+                                             <h2><a href="#">Test ebola</a></h2>
                                              <ul>
-                                                 <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>California,UK</a></li>
+                                                 <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>Clinique clémence</a></li>
                                                  <li><i class="fa fa-calendar-o" aria-hidden="true"></i>24 Nov, 2020</li>
                                              </ul>
-                                             <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                             <p>A partir de 10h.</p>
 
                                          </div>
                                      </div>
@@ -951,15 +951,15 @@
                                              <i class="fa fa-star-o" aria-hidden="true"></i>
                                          </div>
                                          <div class="img_wrapper1">
-                                             <img src="images/event_3.jpg" alt="img" class="img-responsive">
+                                             <img src="images/event_1.jpg" alt="img" class="img-responsive">
                                          </div>
                                          <div class="event_icon1">
-                                             <h2><a href="#">Together we can do so much</a></h2>
+                                             <h2><a href="#">Test Méningite</a></h2>
                                              <ul>
-                                                 <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>California,UK</a></li>
+                                                 <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>Clinique clémence</a></li>
                                                  <li><i class="fa fa-calendar-o" aria-hidden="true"></i>24 Nov, 2017</li>
                                              </ul>
-                                             <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                             <p>GRATUITE.</p>
                                          </div>
                                      </div>
                                      <div class="img_section d-none d-sm-none d-md-none d-lg-block">
@@ -967,15 +967,15 @@
                                              <i class="fa fa-star-o" aria-hidden="true"></i>
                                          </div>
                                          <div class="img_wrapper1">
-                                             <img src="images/event_4.jpg" alt="img" class="img-responsive">
+                                             <img src="images/event_1.jpg" alt="img" class="img-responsive">
                                          </div>
                                          <div class="event_icon1">
-                                             <h2><a href="#">Together we can do so much</a></h2>
+                                             <h2><a href="#">vACCINATION PAL</a></h2>
                                              <ul>
-                                                 <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>California,UK</a></li>
+                                                 <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>Clinique clémence</a></li>
                                                  <li><i class="fa fa-calendar-o" aria-hidden="true"></i>24 Nov, 2020</li>
                                              </ul>
-                                             <p>Proin gravida nibh vel velit auctor aliuet. Aenean sollicitudin, aks lorem quis aks bibendum auctor.</p>
+                                             <p>A partir 10h</p>
                                          </div>
                                      </div>
                                  </div>
@@ -1044,8 +1044,8 @@
                  <div class="team_heading_wrapper med_bottompadder50 wow fadeInDown" data-wow-delay="0.5s">
                      <h1 class="med_bottompadder20">Nouvelles et blog</h1>
                      <img src="images/Icon_team.png" alt="line" class="med_bottompadder20">
-                     <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-                         <br> nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.
+                     <p>Besoin de conseils pour votre santé
+                         <br> Lisez nos dernières actualités et astuces
                      </p>
                  </div>
              </div>
@@ -1063,15 +1063,15 @@
                          </ul>
                      </div>
                      <div class="blog_txt">
-                         <h1><a href="#">Blog Image Post</a></h1>
+                         <h1><a href="#">L'importance du sport</a></h1>
                          <div class="blog_txt_info">
                              <ul>
-                                 <li>BY ADMIN</li>
-                                 <li>SEPT.29,2020</li>
+                                 <li>écrit par ADMIN</li>
+                                 <li>10 juin 2025</li>
                              </ul>
                          </div>
-                         <p>Sollicitudin, lorem quis bibe u auctor, nisi elit conat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus.</p>
-                         <a href="#">Read More <i class="fa fa-long-arrow-right"></i></a>
+                         <p>Le sport est très important pour la santé. Faire du sport...</p>
+                         <a href="#">Voir plus <i class="fa fa-long-arrow-right"></i></a>
                      </div>
                  </div>
              </div>
@@ -1079,7 +1079,7 @@
                  <div class="blog_about">
                      <div class="blog_img">
                          <figure>
-                             <img src="images/blog_img_2.jpg" alt="img" class="img-responsive">
+                             <img src="images/blog_img_1.jpg" alt="img" class="img-responsive">
                          </figure>
                      </div>
                      <div class="blog_comment">
@@ -1089,15 +1089,15 @@
                          </ul>
                      </div>
                      <div class="blog_txt">
-                         <h1><a href="#">Blog Image Post</a></h1>
+                         <h1><a href="#">Le rôle de l'alimentation dans la santé</a></h1>
                          <div class="blog_txt_info">
                              <ul>
-                                 <li>BY ADMIN</li>
-                                 <li>SEPT.29,2020</li>
+                                 <li>par ADMIN</li>
+                                 <li>4 Mai 2025</li>
                              </ul>
                          </div>
-                         <p>Sollicitudin, lorem quis bibe u auctor, nisi elit conat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus.</p>
-                         <a href="#">Read More <i class="fa fa-long-arrow-right"></i></a>
+                         <p>L'alimentation et la santé sont liés...</p>
+                         <a href="#">Voir plus <i class="fa fa-long-arrow-right"></i></a>
                      </div>
                  </div>
              </div>
@@ -1105,7 +1105,7 @@
                  <div class="blog_about">
                      <div class="blog_img">
                          <figure>
-                             <img src="images/blog_img_3.jpg" alt="img" class="img-responsive">
+                             <img src="images/blog_img_1.jpg" alt="img" class="img-responsive">
                          </figure>
                      </div>
                      <div class="blog_comment">
@@ -1115,15 +1115,15 @@
                          </ul>
                      </div>
                      <div class="blog_txt">
-                         <h1><a href="#">Blog Image Post</a></h1>
+                         <h1><a href="#">Comment éviter la carrie dentaire</a></h1>
                          <div class="blog_txt_info">
                              <ul>
-                                 <li>BY ADMIN</li>
-                                 <li>SEPT.29,2020</li>
+                                 <li>par ADMIN</li>
+                                 <li>20 Avril 2025</li>
                              </ul>
                          </div>
-                         <p>Sollicitudin, lorem quis bibe u auctor, nisi elit conat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus.</p>
-                         <a href="#">Read More <i class="fa fa-long-arrow-right"></i></a>
+                         <p>Eviter la carrie dentaire est ...</p>
+                         <a href="#">Voir plus <i class="fa fa-long-arrow-right"></i></a>
                      </div>
                  </div>
              </div>
@@ -1148,10 +1148,10 @@
                          <div class="item">
                              <div class="t_icon_wrapper">
                                  <div class="t_client_cont_wrapper2">
-                                     <p>“ Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat. ”</p>
+                                     <p>“ Je recommande”</p>
                                      <div class="client_img_abt">
-                                         <img class="img-circle" src="images/test_img_1.png" alt="img" style="width:90px;height:90px;">
-                                         <h5>- Aditi Suryavanshi</h5>
+                                         <img class="img-circle" src="images/test_img_1.jpg" alt="img" style="width:90px;height:90px;">
+                                         <h5>- ALi ali</h5>
                                      </div>
                                  </div>
                              </div>
@@ -1159,10 +1159,10 @@
                          <div class="item">
                              <div class="t_icon_wrapper">
                                  <div class="t_client_cont_wrapper2">
-                                     <p>“ Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat. ”</p>
+                                     <p>“ Je suis satifatit”</p>
                                      <div class="client_img_abt">
-                                         <img class="img-circle" src="{{asset('images/test_img_1.png')}}" alt="img" style="width:90px;height:90px;">
-                                         <h5>- Aditi Suryavanshi</h5>
+                                         <img class="img-circle" src="{{asset('images/test_img_1.jpg')}}" alt="img" style="width:90px;height:90px;">
+                                         <h5>- momo momo</h5>
                                      </div>
                                  </div>
                              </div>
@@ -1170,10 +1170,10 @@
                          <div class="item">
                              <div class="t_icon_wrapper">
                                  <div class="t_client_cont_wrapper2">
-                                     <p>“ Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat. ”</p>
+                                     <p>“ Super la qualité ”</p>
                                      <div class="client_img_abt">
-                                         <img class="img-circle" src="images/test_img_1.png" alt="img" style="width:90px;height:90px;">
-                                         <h5>- Aditi Suryavanshi</h5>
+                                         <img class="img-circle" src="images/test_img_1.jpg" alt="img" style="width:90px;height:90px;">
+                                         <h5>- kolo kolo</h5>
                                      </div>
                                  </div>
                              </div>
