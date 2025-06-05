@@ -5,14 +5,14 @@
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="address_main">
                             <div class="footer_widget_add">
-                                <a href=""><img src="images/index_2_logo.png" class="img-responsive" alt="footer_logo" /></a>
-                                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.</p>
-                                <a href="#">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                <a href=""><img src="{{asset('images/logo2.png')}}" class="img-responsive" alt="footer_logo" /></a>
+                                <p>La santé d'abord</p>
+                                <a href="{{ url('about-us') }}">A propos de nous <i class="fa fa-long-arrow-right"></i></a>
                             </div>
                             <div class="footer_box_add">
                                 <ul>
-                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Addresse : </span>-512/fonia,canada</li>
-                                    <li><i class="fa fa-phone" aria-hidden="true"></i><span>Appelez-nouss : </span>+61 5001444-122</li>
+                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Addresse : </span>Ouagadougou</li>
+                                    <li><i class="fa fa-phone" aria-hidden="true"></i><span>Appelez-nous : </span>+226 76 73 08 18/ 70 75 14 04/ 69 88 08 55</li>
                                     <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"><span>Email :</span> info@clinique-clemence.com</a></li>
                                 </ul>
                             </div>
@@ -47,24 +47,23 @@
                                 <!--footer_2-->
                                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 respons_footer_nav d-none d-sm-none d-md-block">
                                     <div class="footer_heading footer_menu">
-                                        <h1 class="med_bottompadder10">Userful</h1>
+                                        <h1 class="med_bottompadder10">Lien utiles</h1>
                                         <img src="images/line.png" class="img-responsive" alt="img" />
                                     </div>
                                     <div class="footer_ul_wrapper">
                                         <ul>
-                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">home</a></li>
-                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">about us</a></li>
-                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">services</a></li>
-                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">doctors</a></li>
-                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">blog</a></li>
-                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="#">contact</a></li>
+                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="{{ url('/') }}">Acceuil</a></li>
+                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="{{ url('appointment') }}">Rendez-vous</a></li>
+                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="{{ url('services') }}">services</a></li>
+                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="{{ url('about-us') }}">A propos</a></li>
+                                            <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="{{ url('contacts') }}">contact</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <!--footer_3-->
                                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 contact_last_div">
                                     <div class="footer_heading">
-                                        <h1 class="med_bottompadder10">Opening Hours</h1>
+                                        <h1 class="med_bottompadder10">Horaires</h1>
                                         <img src="images/line.png" class="img-responsive" alt="img" />
                                     </div>
                                     <div class="footer_cnct">
@@ -80,7 +79,7 @@
                             <div class="footer_botm_wrapper">
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                     <div class="bottom_footer_copy_wrapper">
-                                        <span>Copyright © 2020- <a href="#">DEEPMIND</a>Design by <a href="#">Webstrot.</a></span>
+                                        <span>Copyright © 2025- <a href="#">Clinique Clémence</a></span>
                                     </div>
                                     <div class="footer_btm_icon">
                                         <ul>

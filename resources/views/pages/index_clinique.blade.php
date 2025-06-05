@@ -825,7 +825,7 @@
          <div class="row">
              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                  <div class="choose_heading_wrapper">
-                     <h1 class="med_bottompadder20">Upcoming Events</h1>
+                     <h1 class="med_bottompadder20">Evênements à venir</h1>
                      <img src="images/line.png" alt="title" class="med_bottompadder60">
                  </div>
              </div>
@@ -1042,7 +1042,7 @@
          <div class="row">
              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-lg-offset-2">
                  <div class="team_heading_wrapper med_bottompadder50 wow fadeInDown" data-wow-delay="0.5s">
-                     <h1 class="med_bottompadder20">our News & blog</h1>
+                     <h1 class="med_bottompadder20">Nouvelles et blog</h1>
                      <img src="images/Icon_team.png" alt="line" class="med_bottompadder20">
                      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
                          <br> nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.
@@ -1138,7 +1138,7 @@
          <div class="row">
              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                  <div class="test_heading_wrapper">
-                     <h1 class="med_bottompadder20">What Patients Are Saying</h1>
+                     <h1 class="med_bottompadder20">Ce que les patients disent</h1>
                      <img src="images/line.png" alt="title" class="med_bottompadder60">
                  </div>
              </div>
@@ -1191,10 +1191,11 @@
          <div class="row">
              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-lg-offset-2">
                  <div class="team_heading_wrapper med_bottompadder50 wow fadeInDown" data-wow-delay="0.5s">
-                     <h1 class="med_bottompadder20">Book appointment</h1>
+                     <h1 class="med_bottompadder20">Demander un rendez-vous</h1>
                      <img src="images/Icon_team.png" alt="line" class="med_bottompadder20">
-                     <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-                         <br>nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.
+                     <p>Prenez rendez-vous en ligne avec nos spécialistes.
+                         <br>
+                         Notre équipe vous contactera pour confirmer votre rendez-vous.
                      </p>
                  </div>
              </div>
@@ -1244,7 +1245,7 @@
                      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12  col-12">
                          <div class="response"></div>
                          <div class="contect_btn">
-                             <button type="button" class="submitForm">Send a Message</button>
+                             <button type="button" class="submitForm">Envoyer</button>
                          </div>
                      </div>
                  </div>
@@ -1259,12 +1260,12 @@
                              <img src="images/booking_call.png" alt="img" class="img-circle">
                          </div>
                          <div class="booking_chat">
-                             <h1>+1 800 383 88 90</h1>
-                             <p>if urgent. Your personal case manager will ensure that you receive the best possible care.</p>
+                             <h1>+226 76 73 08 18</h1>
+                             <p>Pour les urgences, contactez-nous directement par téléphone.</p>
                          </div>
                          <div class="booking_btn">
                              <ul>
-                                 <li><a href="#">LIVE CHAT</a></li>
+                                 <li><a href="#">Discutez en live</a></li>
                              </ul>
                          </div>
                      </div>
@@ -1315,13 +1316,13 @@
          <div class="row">
              <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
                  <div class="newsletter_text wow fadeOut" data-wow-delay="0.5s">
-                     <h3>Your First Step Towards Oral Health For Life Starts Here :</h3>
+                     <h3>Discutez avec nous sur whatsApp :</h3>
                  </div>
              </div>
              <div class="col-xl-2 col-lg-2 col-md-12 col-sm-6 col-6">
                  <div class="contect_btn_news">
                      <ul>
-                         <li><a href="#">Enquiry</a></li>
+                         <li><a href="https://wa.me/22670751404">Discuter</a></li>
                      </ul>
                  </div>
              </div>

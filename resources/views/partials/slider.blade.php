@@ -12,8 +12,8 @@
                                         <h2 data-animation-in="fadeInDown" data-animation-out="animate-out fadeOutDown">Des soins d’excellence, un engagement de confiance.</h2>
                                         {{-- <p data-animation-in="zoomIn" data-animation-out="animate-out zoomIn">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibdum auctor, nisi elit consequat ipsum, nec sagittis sem.</p> --}}
                                         <ul>
-                                            <li data-animation-in="bounceInLeft" data-animation-out="animate-out bounceOutLeft"><a href="#">RENDEZ-VOUS</a></li>
-                                            <li data-animation-in="bounceInLeft" data-animation-out="animate-out bounceOutLeft"><a href="#">CONTACT</a></li>
+                                            <li data-animation-in="bounceInLeft" data-animation-out="animate-out bounceOutLeft"><a href="{{ url('appointment') }}">RENDEZ-VOUS</a></li>
+                                            <li data-animation-in="bounceInLeft" data-animation-out="animate-out bounceOutLeft"><a href="{{ url('contacts') }}">CONTACT</a></li>
                                         </ul>
                                     </div>
                                 </div>

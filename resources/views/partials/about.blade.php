@@ -8,7 +8,7 @@
             </div>
             <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 abt_section">
                 <div class="abt_heading_wrapper">
-                    <h1 class="med_bottompadder20">about medical</h1>
+                    <h1 class="med_bottompadder20">A propose de nous</h1>
                     <img src="images/line.png" alt="title" class="med_bottompadder20">
                 </div>
                 <div class="abt_txt">

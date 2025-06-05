@@ -97,7 +97,7 @@
                                 <img src="{{asset('images/booking_call.png')}}" alt="img" class="img-circle">
                             </div>
                             <div class="booking_chat">
-                                <h1>+33 1 23 45 67 89</h1>
+                                <h1>+226 70 75 14 04</h1>
                                 <p>Pour les urgences, contactez-nous directement par téléphone.</p>
                             </div>
                         </div>

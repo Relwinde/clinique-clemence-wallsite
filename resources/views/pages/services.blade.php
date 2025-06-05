@@ -255,7 +255,7 @@
         <div class="cta-content">
             <h3>Votre santé mérite notre expertise</h3>
             <p>Prenez rendez-vous avec nos spécialistes pour une consultation personnalisée</p>
-            <a href="#" class="cta-btn">Contactez-nous <i class="fas fa-phone-alt"></i></a>
+            <a href="https://wa.me/22670751404" class="cta-btn">Contactez-nous <i class="fas fa-phone-alt"></i></a>
         </div>
     </div>
 </section>
