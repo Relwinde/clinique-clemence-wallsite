@@ -2,25 +2,11 @@
 
 @section('page')
 
-<!-- Header Section -->
-<div class="consultation-header-section">
-    <div class="consultation-header-overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="consultation-header-content-wrapper">
-                    <div class="consultation-header-content">
-                        <h1>Consultations Médicales</h1>
-                        <ol class="breadcrumb">
-                            <li><a href="">Accueil</a></li>
-                            <li>Consultations</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<!-- En-tête -->
+ @include('partials.pages-header', [
+    'title' => 'Consultations Médicales',
+    'subtitle' => 'Consultations',
+ ])
 
 <!-- Services de consultation - Carrousel -->
 <div class="consultation-service-wrapper section-padding-top-100">
