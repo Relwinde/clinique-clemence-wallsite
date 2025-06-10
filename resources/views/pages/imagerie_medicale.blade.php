@@ -3,25 +3,10 @@
 @section('page')
 
 <!-- Titre Section -->
-<div class="imagerie-header-section">
-    <div class="imagerie-header-overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="imagerie-header-content-wrapper">
-                    <div class="imagerie-header-content">
-                        <h1>Imagerie Médicale</h1>
-                        <ol class="breadcrumb">
-                            <li><a href="">Accueil</a></li>
-                            <li>Imagerie Médicale</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
+@include('partials.pages-header', [
+    'title' => 'Imagerie Médicale',
+    'subtitle' => 'Des soins d’excellence, un engagement de confiance.'
+    ])
 <!-- Section imagerie -->
 <div class="imagerie-service-wrapper section-padding-top-100">
     <div class="container">

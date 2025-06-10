@@ -2,7 +2,7 @@
 
 @section('page')
 <!-- Hero Section -->
-<section class="medical-hero">
+{{-- <section class="medical-hero">
     <div class="hero-overlay"></div>
     <div class="container">
         <div class="hero-content">
@@ -15,7 +15,13 @@
             </nav>
         </div>
     </div>
-</section>
+</section> --}}
+
+@include('partials.pages-header', [
+    'title' => 'Nos Services Médicaux',
+    'subtitle' => 'Services'
+])
+
 
 <!-- Consultation Section -->
 <section class="consultation-section">
