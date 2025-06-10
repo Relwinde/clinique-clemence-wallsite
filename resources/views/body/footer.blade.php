@@ -67,9 +67,9 @@
                                         <img src="images/line.png" class="img-responsive" alt="img" />
                                     </div>
                                     <div class="footer_cnct">
-                                        <p>Monday – Friday ------<span>09:00-17:00</span></p>
-                                        <p>Saturday -----------------<span>09:30-17:00</span></p>
-                                        <p>Sunday -------------------<span>10:30-18:00</span></p>
+                                        <p>Lundi – Vendredi ------<span>09:00-17:00</span></p>
+                                        <p>Samedi -----------------<span>09:30-17:00</span></p>
+                                        <p>Dimanche -------------<span>10:30-18:00</span></p>
                                     </div>
                                 </div>
                                 <!--footer_4-->
