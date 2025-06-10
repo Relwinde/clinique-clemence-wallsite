@@ -69,3 +69,7 @@ Route::get('/dentiste', function(){
 Route::get('/cuisine', function(){
     return view('pages.cuisine');
 });
+
+Route::get('/pharmacie', function(){
+    return view('pages.pharmacie');
+});

@@ -40,6 +40,7 @@
                                         <li class="parent"><a href="{{url('dentiste/')}}">Dentiste</a></li>
                                         <li class="parent"><a href="{{url('gynecologie/')}}">Gynecologie</a></li>
                                         <li class="parent"><a href="{{url('cuisine/')}}">Cuisine</a></li>
+                                        <li class="parent"><a href="{{url('pharmacie/')}}">Pharmacie</a></li>
                                         </li>
 
                                     </ul>
