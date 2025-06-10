@@ -31,7 +31,7 @@
                     <h1 class="padding-bottom-20">NOTRE SERVICE D'HOSPITALISATION</h1>
                     <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20">
                     <p>
-                        Un environnement médicalisé et confortable pour votre séjour en toute sérénité.
+                        Un environnement médicalisé et confortable pour votre séjour en toute sérénité, avec des options standard et VIP adaptées à vos besoins.
                     </p>
                 </div>
             </div>
@@ -44,7 +44,7 @@
                         <div class="hospitalisation-service-card">
                             <div class="hospitalisation-service-image-wrapper">
                                 <img src="https://images.unsplash.com/photo-1581595219315-a187dd40c322?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
-                                     alt="Hospitalisation complète" class="img-responsive">
+                                     alt="Hospitalisation standard" class="img-responsive">
                                 <div class="hospitalisation-service-overlay">
                                     <div class="hospitalisation-service-overlay-content">
                                         <a href="#">En savoir plus</a>
@@ -52,8 +52,8 @@
                                 </div>
                             </div>
                             <div class="hospitalisation-service-text">
-                                <h3>Hospitalisation Complète</h3>
-                                <p>Chambres individuelles avec tout le confort nécessaire et surveillance médicale 24h/24.</p>
+                                <h3>Hospitalisation Standard</h3>
+                                <p>Chambres individuelles ou doubles avec tout le confort de base et surveillance médicale 24h/24.</p>
                             </div>
                         </div>
                     </div>
@@ -62,8 +62,8 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div class="hospitalisation-service-card">
                             <div class="hospitalisation-service-image-wrapper">
-                                <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
-                                     alt="Hospitalisation de jour" class="img-responsive">
+                                <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+                                     alt="Hospitalisation VIP" class="img-responsive">
                                 <div class="hospitalisation-service-overlay">
                                     <div class="hospitalisation-service-overlay-content">
                                         <a href="#">En savoir plus</a>
@@ -71,8 +71,8 @@
                                 </div>
                             </div>
                             <div class="hospitalisation-service-text">
-                                <h3>Hospitalisation de Jour</h3>
-                                <p>Actes médicaux programmés avec retour à domicile le même jour.</p>
+                                <h3>Hospitalisation VIP</h3>
+                                <p>Suites haut de gamme avec services premium, espace détente privé et accompagnement personnalisé.</p>
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@
                             </div>
                             <div class="hospitalisation-service-text">
                                 <h3>Unité de Soins Intensifs</h3>
-                                <p>Surveillance continue pour les patients nécessitant des soins critiques.</p>
+                                <p>Surveillance continue pour les patients nécessitant des soins critiques, en version standard ou VIP.</p>
                             </div>
                         </div>
                     </div>
@@ -115,16 +115,29 @@
                 <div class="hospitalisation-about-content">
                     <h3 class="hospitalisation-about-title">Un accueil chaleureux et des soins de qualité</h3>
                     <p class="padding-top-20">
-                        Notre service d'hospitalisation met tout en œuvre pour que votre séjour soit aussi confortable 
-                        que possible. Avec des chambres modernes, un personnel attentionné et des équipements 
-                        médicaux de pointe, nous assurons des soins de qualité dans un environnement sécurisé.
+                        Notre service d'hospitalisation propose deux niveaux de confort pour s'adapter à vos besoins et préférences :
                     </p>
-                    <ul class="hospitalisation-about-list">
-                        <li>Chambres individuelles climatisées avec salle de bain</li>
-                        <li>Restauration sur mesure adaptée aux régimes médicaux</li>
-                        <li>Accès WiFi et télévision</li>
-                        <li>Visites encadrées selon les besoins thérapeutiques</li>
-                    </ul>
+                    <div class="row padding-top-20">
+                        <div class="col-md-6">
+                            <h4>Hospitalisation Standard</h4>
+                            <ul class="hospitalisation-about-list">
+                                <li>Chambres individuelles ou doubles climatisées</li>
+                                <li>Salle de bain privative ou partagée</li>
+                                <li>Restauration médicalisée de qualité</li>
+                                <li>Accès WiFi et télévision</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Hospitalisation VIP</h4>
+                            <ul class="hospitalisation-about-list">
+                                <li>Suites spacieuses avec espace salon</li>
+                                <li>Salle de bain luxueuse avec équipements premium</li>
+                                <li>Restauration gastronomique sur mesure</li>
+                                <li>Service personnalisé 24h/24</li>
+                                <li>Accès à des espaces privatifs</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -139,6 +152,7 @@
                 <div class="hospitalisation-section-header padding-bottom-40">
                     <h1 class="padding-bottom-20">NOS ÉQUIPEMENTS ET SERVICES</h1>
                     <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20">
+                    <p>Des équipements adaptés pour chaque type d'hospitalisation</p>
                 </div>
             </div>
             
@@ -147,7 +161,7 @@
                     <img src="https://images.unsplash.com/photo-1585435557343-3b348031e799?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
                          alt="Lit médicalisé" class="img-responsive">
                     <h3>Lits Médicalisés</h3>
-                    <p>Lits électriques avec matelas anti-escarres pour plus de confort.</p>
+                    <p>Lits électriques avec matelas anti-escarres (standard) ou systèmes dernier cri (VIP).</p>
                 </div>
             </div>
             
@@ -155,8 +169,8 @@
                 <div class="hospitalisation-equipment-card">
                     <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
                          alt="Monitoring" class="img-responsive">
-                    <h3>Monitoring Continu</h3>
-                    <p>Surveillance des constantes vitales 24h/24 par du personnel qualifié.</p>
+                    <h3>Monitoring</h3>
+                    <p>Surveillance des constantes vitales 24h/24, avec options avancées en VIP.</p>
                 </div>
             </div>
             
@@ -164,8 +178,8 @@
                 <div class="hospitalisation-equipment-card">
                     <img src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
                          alt="Salle de bain" class="img-responsive">
-                    <h3>Salles de Bain Adaptées</h3>
-                    <p>Accessibles aux personnes à mobilité réduite avec équipements spéciaux.</p>
+                    <h3>Salles de Bain</h3>
+                    <p>Adaptées ou partagées (standard) ou spa privatif avec baignoire balnéo (VIP).</p>
                 </div>
             </div>
             
@@ -173,8 +187,8 @@
                 <div class="hospitalisation-equipment-card">
                     <img src="https://images.unsplash.com/photo-1505576399279-565b52d4ac71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
                          alt="Espace détente" class="img-responsive">
-                    <h3>Espace Détente</h3>
-                    <p>Salon convivial pour les patients et leurs visiteurs.</p>
+                    <h3>Espaces Détente</h3>
+                    <p>Salon commun (standard) ou espace privatif avec terrasse (VIP).</p>
                 </div>
             </div>
         </div>
@@ -192,8 +206,8 @@
                         <li>Pièce d'identité et carte vitale</li>
                         <li>Ordonnances et résultats d'examens récents</li>
                         <li>Liste des médicaments en cours</li>
-                        <li>Affaires personnelles (vêtements confortables, produits de toilette)</li>
-                        <li>Matériel médical personnel si nécessaire</li>
+                        <li>Affaires personnelles adaptées au type de chambre</li>
+                        <li>Pour les VIP : confirmation de votre réservation premium</li>
                     </ul>
                 </div>
             </div>
@@ -203,21 +217,21 @@
                     <h2><i class="fa fa-question-circle"></i> Questions fréquentes</h2>
                     <div class="hospitalisation-accordion">
                         <div class="hospitalisation-accordion-item">
-                            <button class="hospitalisation-accordion-button">Quels sont les horaires de visites ?</button>
+                            <button class="hospitalisation-accordion-button">Quelle est la différence entre standard et VIP ?</button>
                             <div class="hospitalisation-accordion-content">
-                                <p>Les visites sont autorisées de 10h à 20h, sauf indication contraire de l'équipe soignante.</p>
+                                <p>L'hospitalisation VIP offre des suites plus spacieuses, des services personnalisés, une restauration gastronomique et des équipements haut de gamme, tandis que le standard propose un confort essentiel avec une qualité de soins identique.</p>
                             </div>
                         </div>
                         <div class="hospitalisation-accordion-item">
-                            <button class="hospitalisation-accordion-button">Puis-je avoir un accompagnant ?</button>
+                            <button class="hospitalisation-accordion-button">Puis-je passer du standard au VIP ?</button>
                             <div class="hospitalisation-accordion-content">
-                                <p>Oui, sous certaines conditions et avec supplément. Merci de vous renseigner à l'accueil.</p>
+                                <p>Oui, sous réserve de disponibilité. Un supplément sera appliqué. Contactez le service administratif pour plus d'informations.</p>
                             </div>
                         </div>
                         <div class="hospitalisation-accordion-item">
-                            <button class="hospitalisation-accordion-button">Comment se passe la sortie ?</button>
+                            <button class="hospitalisation-accordion-button">Les soins médicaux diffèrent-ils entre standard et VIP ?</button>
                             <div class="hospitalisation-accordion-content">
-                                <p>Elle est organisée avec l'équipe soignante qui vous remettra un compte-rendu et les prescriptions.</p>
+                                <p>Non, la qualité des soins médicaux est identique. Seul le cadre et les services annexes diffèrent.</p>
                             </div>
                         </div>
                     </div>
@@ -358,13 +372,14 @@
     .hospitalisation-about-list {
         list-style-type: none;
         padding-left: 0;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     
     .hospitalisation-about-list li {
         position: relative;
         padding-left: 25px;
-        margin-bottom: 10px;
+        margin-bottom: 8px;
+        font-size: 14px;
     }
     
     .hospitalisation-about-list li:before {
