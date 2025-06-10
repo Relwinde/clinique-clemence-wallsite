@@ -37,6 +37,9 @@
                                         <li class="parent"><a href="{{url('hospitalisations/')}}">Hospitalisations</a></li>
                                         <li class="parent"><a href="{{url('soins_infirmiers/')}}">Soins infirmiers</a></li>
                                         <li class="parent"><a href="{{url('soins_urgence/')}}">Soins d'urgence</a></li>
+                                        <li class="parent"><a href="{{url('dentiste/')}}">Dentiste</a></li>
+                                        <li class="parent"><a href="{{url('gynecologie/')}}">Gynecologie</a></li>
+                                        <li class="parent"><a href="{{url('cuisine/')}}">Cuisine</a></li>
                                         </li>
 
                                     </ul>

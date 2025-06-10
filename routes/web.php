@@ -14,8 +14,8 @@ Route::get('/about-us', function(){
     return view('pages.about_us');
 });
 
-Route::get('/soignants', function(){
-    return view('pages.soignants');
+Route::get('/gynecologie', function(){
+    return view('pages.gynecologie');
 });
 
 Route::get('/contacts', function(){
@@ -62,6 +62,10 @@ Route::get('/actualites', function(){
     return view('pages.actualites');
 });
 
-Route::get('/faq', function(){
-    return view('pages.faq');
+Route::get('/dentiste', function(){
+    return view('pages.dentiste');
+});
+
+Route::get('/cuisine', function(){
+    return view('pages.cuisine');
 });
