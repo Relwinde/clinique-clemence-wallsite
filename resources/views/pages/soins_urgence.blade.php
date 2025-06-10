@@ -3,24 +3,10 @@
 @section('page')
 
 <!-- Titre Section -->
-<div class="med_tittle_section">
-    <div class="med_img_overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="med_tittle_cont_wrapper">
-                    <div class="med_tittle_cont">
-                        <h1>Urgences Médicales</h1>
-                        <ol class="breadcrumb">
-                            <li><a href="{{ url('/') }}">Accueil</a></li>
-                            <li>Urgences</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+ @include('partials.pages-header', [
+    'title' => "Service d'urgence",
+    'subtitle' => 'Urgences',
+ ])
 
 
 

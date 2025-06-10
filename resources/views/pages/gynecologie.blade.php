@@ -3,24 +3,10 @@
 @section('page')
 
 <!-- Header Section -->
-<div class="consultation-header-section">
-    <div class="consultation-header-overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="consultation-header-content-wrapper">
-                    <div class="consultation-header-content">
-                        <h1>Gynécologie</h1>
-                        <ol class="breadcrumb">
-                            <li><a href="">Accueil</a></li>
-                            <li>Gynécologie</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+ @include('partials.pages-header', [
+    'title' => 'Gynecologie',
+    'subtitle' => 'Gynecologie',
+ ])
 
 <!-- Services de gynécologie - Carrousel -->
 <div class="consultation-service-wrapper section-padding-top-100">

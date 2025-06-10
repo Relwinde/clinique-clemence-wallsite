@@ -2,24 +2,10 @@
 
 @section('page')
     <!-- Section titre -->
-    <div class="med_tittle_section">
-        <div class="med_img_overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="med_tittle_cont_wrapper">
-                        <div class="med_tittle_cont">
-                            <h1>Prendre rendez-vous</h1>
-                            <ol class="breadcrumb">
-                                <li><a href="{{url('/')}}">Accueil</a></li>
-                                <li>Prenez un rendez-vous</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+ @include('partials.pages-header', [
+    'title' => 'Prenez rendez-vous',
+    'subtitle' => 'Rendez-vous',
+ ])
     <!-- Fin section titre -->
 
     <!-- Formulaire de rendez-vous -->

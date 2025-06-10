@@ -3,22 +3,10 @@
 @section('page')
 
 <!-- En-tête -->
-<div class="labo-header-section">
-    <div class="labo-header-overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="labo-header-content">
-                    <h1>Laboratoire d'Analyses</h1>
-                    <ol class="breadcrumb">
-                        <li><a href="/">Accueil</a></li>
-                        <li class="active">Laboratoire</li>
-                    </ol>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+ @include('partials.pages-header', [
+    'title' => "Laboratoire d'Analyses ",
+    'subtitle' => 'Laboratoire',
+ ])
 
 <!-- Section principale -->
 <div class="labo-main-section section-padding">

@@ -3,24 +3,10 @@
 @section('page')
 
 <!-- Header Section -->
-<div class="pharmacy-header-section">
-    <div class="pharmacy-header-overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="pharmacy-header-content-wrapper">
-                    <div class="pharmacy-header-content">
-                        <h1>Dépôt Pharmaceutique</h1>
-                        <ol class="breadcrumb">
-                            <li><a href="">Accueil</a></li>
-                            <li>Pharmacie</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+ @include('partials.pages-header', [
+    'title' => 'Dépôt Pharmaceutique',
+    'subtitle' => 'Pharmacie',
+ ])
 
 <!-- Services pharmaceutiques - Carrousel -->
 <div class="pharmacy-service-wrapper section-padding-top-100">

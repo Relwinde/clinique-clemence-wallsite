@@ -6,7 +6,7 @@
 @include('partials.pages-header', [
     'title' => 'Imagerie Médicale',
     'subtitle' => 'Des soins d’excellence, un engagement de confiance.'
-    ])
+])
 <!-- Section imagerie -->
 <div class="imagerie-service-wrapper section-padding-top-100">
     <div class="container">

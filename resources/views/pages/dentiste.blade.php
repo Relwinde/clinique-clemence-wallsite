@@ -3,24 +3,10 @@
 @section('page')
 
 <!-- Header Section -->
-<div class="dentist-header-section">
-    <div class="dentist-header-overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="dentist-header-content-wrapper">
-                    <div class="dentist-header-content">
-                        <h1>Soins Dentaires</h1>
-                        <ol class="breadcrumb">
-                            <li><a href="">Accueil</a></li>
-                            <li>Dentisterie</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+ @include('partials.pages-header', [
+    'title' => 'Dentiste',
+    'subtitle' => 'dentiste',
+ ])
 
 <!-- Services dentaires - Carrousel -->
 <div class="dentist-service-wrapper section-padding-top-100">

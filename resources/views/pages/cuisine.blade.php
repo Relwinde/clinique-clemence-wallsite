@@ -3,24 +3,10 @@
 @section('page')
 
 <!-- Header Section -->
-<div class="kitchen-header-section">
-    <div class="kitchen-header-overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="kitchen-header-content-wrapper">
-                    <div class="kitchen-header-content">
-                        <h1>Service de Cuisine Médicale</h1>
-                        <ol class="breadcrumb">
-                            <li><a href="">Accueil</a></li>
-                            <li>Cuisine</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+ @include('partials.pages-header', [
+    'title' => 'Cuisine',
+    'subtitle' => 'Cuisine',
+ ])
 
 <!-- Services de cuisine - Carrousel -->
 <div class="kitchen-service-wrapper section-padding-top-100">

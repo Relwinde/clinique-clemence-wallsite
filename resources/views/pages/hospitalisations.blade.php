@@ -3,24 +3,10 @@
 @section('page')
 
 <!-- Titre Section -->
-<div class="hospitalisation-header-section">
-    <div class="hospitalisation-header-overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="hospitalisation-header-content-wrapper">
-                    <div class="hospitalisation-header-content">
-                        <h1>Hospitalisation</h1>
-                        <ol class="breadcrumb">
-                            <li><a href="">Accueil</a></li>
-                            <li>Hospitalisation</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+ @include('partials.pages-header', [
+    'title' => 'Hospitalisations',
+    'subtitle' => 'Service Hospitalisation',
+ ])
 
 <!-- Section hospitalisation -->
 <div class="hospitalisation-service-wrapper section-padding-top-100">
