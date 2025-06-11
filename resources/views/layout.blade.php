@@ -22,7 +22,7 @@ Template Name:DEEPMIND
     <meta property="og:description" content="Située en périphérie de Ouagadougou, notre clinique médicale offre une prise en charge globale et personnalisée à tous ses patients. Grâce à une équipe de professionnels compétents et un plateau technique moderne.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.clinique-clemence.com">
-    <meta property="og:image" content="https://www.clinique-clemence.com/images/logo2.png">
+    <meta property="og:image" content="https://www.clinique-clemence.com/images/logo.jpg">
 
     <meta property="og:image:alt" content="Clinique Clémence, Ouagadougou - Soins complets et urgences 24h/24">
 
