@@ -17,12 +17,12 @@
                 <h1 class="med_bottompadder30 ">PRENDRE UN RENDEZ-VOUS</h1>
                 <div class="appoint_form">
                     <ul>
-                        <li><a href="#">Email : hospital@example.com</a></li>
-                        <li> Fax : 1800 1245 1253</li>
+                        <li><a href="#">Email : contact@clinique-clemence.com</a></li>
+                        <li>+226 76730818 / 70751404 / 69880855</li>
                     </ul>
                 </div>
                 <h2><i class="flaticon-24-hours-phone-service"></i>
-                                        Numéro d'urgence +1 800-123-132</h2>
+                                        Numéro d'urgence 17</h2>
             </div>
         </div>
     </div>
