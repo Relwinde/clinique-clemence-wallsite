@@ -75,8 +75,8 @@
                     </div>
 
                     <div class="cat_txt cont_cat_txt">
-                        <h1>22, margatnet. 2020</h1>
-                        <p>Marylebone,London</p>
+                        <h1>Visitez nous</h1>
+                        <p>Ouagadougou, RN3, rond point du contournement route de Loumbila</p>
 
                     </div>
                 </div>
@@ -88,8 +88,8 @@
                     </div>
 
                     <div class="cat_txt cont_cat_txt">
-                        <h1>+1800 1256-12365</h1>
-                        <p>Mon-Fri 8:30am - 9:30pm</p>
+                        <h1>Appelez-nous</h1>
+                        <p>+226 76730818</p>
 
                     </div>
                 </div>
@@ -100,11 +100,11 @@
                         <img src="images/icon_envelope.png" alt="img" class="img-responsive">
                     </div>
 
-                    <div class="cat_txt cont_cat_txt cont_last_child">
+                    <div class="cat_txt cont_cat_txt">
                         <a href="#">
-                            <h1>dummy@exmaple.com</h1>
+                            <h1>Ecrivez nous</h1>
                         </a>
-                        <p>24 / 7online help support</p>
+                        <p>contact@clinique-clemence.com</p>
 
                     </div>
                 </div>

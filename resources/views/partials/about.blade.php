@@ -1,8 +1,3 @@
- @include('partials.pages-header', [
-    'title' => 'A propos de nous',
-    'subtitle' => 'A propos',
- ])
-
 <div class="about_wrapper">
     <div class="container">
         <div class="row">

@@ -1,9 +1,9 @@
-<div class="menu_wrapper header-area hidden-menu-bar stick">le
+<div class="menu_wrapper header-area hidden-menu-bar stick">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12 wow bounceInDown" data-wow-delay="0.6s">
                 <div class="header_logo">
-                    <a href="index.html" class="hidden-xs"><img src="images/logo2.png" alt="logo" title="logo" class="img-responsive  d-none d-sm-none d-md-block d-lg-block"></a>
+                    <a href="/" class="hidden-xs"><img src="images/logo2.png" alt="logo" title="logo" class="img-responsive  d-none d-sm-none d-md-block d-lg-block"></a>
                 </div>
             </div>
             <div class="col-lg-9 col-md-9 col-sm-10 col-xs-12">
@@ -63,7 +63,7 @@
                 <div class="row">
                     <div class="col-xl-6">
                         <div class="gc_logo logo_hidn d-block d-sm-block d-md-none d-lg-none d-xl-none">
-                            <a href="#"><img src="images/logo2.png" class="img-responsive" alt="logo"></a>
+                            <a href="/"><img src="images/logo2.png" class="img-responsive" alt="logo"></a>
                         </div>
                     </div>
 

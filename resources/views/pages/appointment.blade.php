@@ -68,7 +68,7 @@
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                             <div class="response"></div>
                             <div class="contect_btn">
-                                <button type="button" class="submitForm">Envoyer la demande</button>
+                                <button type="button" class="submitForm">Envoyer</button>
                             </div>
                         </div>
                     </div>

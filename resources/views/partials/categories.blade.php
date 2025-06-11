@@ -11,7 +11,7 @@
                         <img src="images/icon_11.png" alt="img" class="img-responsive">
                     </div>
                     <div class="cat_txt">
-                        <h1>Chirurgie Cardiaque</h1>
+                        <h1>Imagérie Médicale</h1>
                         <p>Nous offrons des interventions cardiaques avec précision et soin pour garantir votre santé optimale.</p>
                         <a href="#">En savoir plus <i class="fa fa-long-arrow-right"></i></a>
                     </div>
@@ -27,7 +27,7 @@
                         <img src="images/icon_2.png" alt="img" class="img-responsive">
                     </div>
                     <div class="cat_txt">
-                        <h1>Soins d'Urgence</h1>
+                        <h1>Laboratoire</h1>
                         <p>Nos équipes sont prêtes à intervenir 24h/24 pour tous vos besoins médicaux urgents.</p>
                         <a href="#">En savoir plus <i class="fa fa-long-arrow-right"></i></a>
                     </div>
@@ -43,7 +43,7 @@
                         <img src="images/icon_3.png" alt="img" class="img-responsive">
                     </div>
                     <div class="cat_txt">
-                        <h1>Soins Dentaires</h1>
+                        <h1>Hospitalisation</h1>
                         <p>Des soins dentaires complets et personnalisés pour toute la famille dans un cadre confortable.</p>
                         <a href="#">En savoir plus <i class="fa fa-long-arrow-right"></i></a>
                     </div>
