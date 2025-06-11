@@ -15,7 +15,9 @@
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 col-lg-offset-2">
                     <div class="team_heading_wrapper med_bottompadder50">
                         <h1 class="med_bottompadder20">Prenez un rendez-vous</h1>
-                        <img src="{{asset('images/Icon_team.png')}}" alt="line" class="med_bottompadder20">
+                        {{-- <img src="{{asset('images/Icon_team.png')}}" alt="line" class="med_bottompadder20"> --}}
+                        <img src="{{ asset('images/line.png') }}" alt="ligne" class="med_bottompadder20">
+
                         <p>Prenez rendez-vous en ligne avec nos spécialistes. <br>
                         Notre équipe vous contactera pour confirmer votre rendez-vous.</p>
                     </div>

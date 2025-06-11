@@ -15,7 +15,8 @@
             <div class="col-xl-12">
                 <div class="consultation-section-header padding-bottom-40">
                     <h1 class="padding-bottom-20">NOS SERVICES DE CONSULTATION</h1>
-                    <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20">
+                    <img src="{{ asset('images/line.png') }}" alt="ligne" class="med_bottompadder20">
+                    {{-- <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20"> --}}
                     <p>
                         Une équipe médicale pluridisciplinaire à votre écoute pour une prise en charge personnalisée.
                     </p>

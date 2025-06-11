@@ -15,7 +15,8 @@
             <div class="col-xl-12">
                 <div class="nursing-section-header padding-bottom-40">
                     <h1 class="padding-bottom-20">NOS SERVICES DE SOINS INFIRMIERS</h1>
-                    <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20">
+                    <img src="{{ asset('images/line.png') }}" alt="ligne" class="med_bottompadder20">
+                    {{-- <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20"> --}}
                     <p>
                         Des soins personnalisés dispensés par une équipe d'infirmiers diplômés et expérimentés.
                     </p>

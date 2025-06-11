@@ -15,7 +15,9 @@
             <div class="col-xl-12">
                 <div class="kitchen-section-header padding-bottom-40">
                     <h1 class="padding-bottom-20">NOS SERVICES CULINAIRES</h1>
-                    <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20">
+                    {{-- <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20"> --}}
+                    <img src="{{ asset('images/line.png') }}" alt="ligne" class="med_bottompadder20">
+
                     <p>
                         Une cuisine adaptée aux besoins nutritionnels spécifiques des patients, avec des repas sains et équilibrés.
                     </p>
