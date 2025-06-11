@@ -201,7 +201,7 @@
             <div class="col-xl-12">
                 <div class="consultation-section-header padding-bottom-40">
                     <h1 class="padding-bottom-20">NOS SPÉCIALITÉS MÉDICALES</h1>
-                    <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20">
+                    {{-- <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20"> --}}
                     <p>Parcourez nos différentes spécialités médicales disponibles</p>
                 </div>
             </div>
