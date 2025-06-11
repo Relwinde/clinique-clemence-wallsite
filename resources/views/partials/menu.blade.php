@@ -63,7 +63,7 @@
                 <div class="row">
                     <div class="col-xl-6">
                         <div class="gc_logo logo_hidn d-block d-sm-block d-md-none d-lg-none d-xl-none">
-                            <a href="/"><img src="images/logo2.png" class="img-responsive" alt="logo"></a>
+                            <a href="/"><img src="images/logo_mobile.jpg" class="img-responsive" alt="logo"></a>
                         </div>
                     </div>
 
