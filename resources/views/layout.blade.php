@@ -12,10 +12,29 @@ Template Name:DEEPMIND
     <meta charset="utf-8" />
     <title>Clinique Clémence </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta name="description" content="deepmind" />
-    <meta name="keywords" content="medical/deepmind/hospital" />
-    <meta name="author" content="" />
+
+    <meta name="description" content="Située en périphérie de Ouagadougou, notre clinique médicale offre une prise en charge globale et personnalisée à tous ses patients. Grâce à une équipe de professionnels compétents et un plateau technique moderne." />
+
+    <meta name="keywords" content="clinique, soins médicaux, Ouagadougou, Burkina Faso, consultations, urgences, gynécologie, imagerie, laboratoire, pharmacie" />
+
+    <!-- Open Graph pour les réseaux sociaux -->
+    <meta property="og:title" content="Clinique Clémence, Ouagadougou - Soins complets et urgences 24h/24">
+    <meta property="og:description" content="Située en périphérie de Ouagadougou, notre clinique médicale offre une prise en charge globale et personnalisée à tous ses patients. Grâce à une équipe de professionnels compétents et un plateau technique moderne.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.clinique-clemence.com">
+    <meta property="og:image" content="https://www.clinique-clemence.com/images/logo2.png">
+
+    <meta property="og:image:alt" content="Clinique Clémence, Ouagadougou - Soins complets et urgences 24h/24">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Clinique Clémence, Ouagadougou">
+    <meta name="twitter:description" content="Soins médicaux, consultations, imagerie, urgences, dentisterie et plus à Ouagadougou.">
+    <meta name="twitter:image" content="https://www.clinique-clemence.com/images/logo.jpg">
+
+    <meta name="author" content="Relwindé" />
     <meta name="MobileOptimized" content="320" />
+
     <!-- style -->
     <link rel="stylesheet" type="text/css" href="{{asset('css/animate.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
@@ -28,7 +47,7 @@ Template Name:DEEPMIND
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/responsive.css')}}" />
     <!-- favicon link-->
-    <link rel="shortcut icon" type="image/icon" href="{{asset('images/Iconpic.png')}}" />
+    <link rel="shortcut icon" type="image/icon" href="{{asset('images/logo.jpg')}}" />
 
     <!-- CSS Owl Carousel -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -98,8 +117,8 @@ Template Name:DEEPMIND
             items: 1,         // Nombre d'éléments à afficher
             loop: true,       // Boucle infinie
             autoplay: true,   // Défilement automatique
-            autoplayTimeout: 3000, // Temps entre chaque slide (3s)
-            autoplayHoverPause: true // Pause au survol
+            autoplayTimeout: 2000, // Temps entre chaque slide (3s)
+            autoplayHoverPause: false // Pause au survol
         });
     });
 </script>   
