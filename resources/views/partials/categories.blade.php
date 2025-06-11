@@ -12,7 +12,7 @@
                     </div>
                     <div class="cat_txt">
                         <h1>Imagérie Médicale</h1>
-                        <p>Nous offrons des interventions cardiaques avec précision et soin pour garantir votre santé optimale.</p>
+                        <p>Imagerie médicale de pointe au service de votre santé, directement à la clinique.</p>
                         <a href="#">En savoir plus <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
                     </div>
                     <div class="cat_txt">
                         <h1>Laboratoire</h1>
-                        <p>Nos équipes sont prêtes à intervenir 24h/24 pour tous vos besoins médicaux urgents.</p>
+                        <p>Analyses médicales précises et rapides, assurées par notre laboratoire au sein de la clinique.</p>
                         <a href="#">En savoir plus <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                     </div>
                     <div class="cat_txt">
                         <h1>Hospitalisation</h1>
-                        <p>Des soins dentaires complets et personnalisés pour toute la famille dans un cadre confortable.</p>
+                        <p>Prise en charge complète et sécurisée de vos hospitalisations au sein de notre clinique. </p>
                         <a href="#">En savoir plus <i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
