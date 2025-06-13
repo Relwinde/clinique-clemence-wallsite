@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+    Contacts    
+@endsection
+
 @section('page')
 
 <!--header wrapper end-->

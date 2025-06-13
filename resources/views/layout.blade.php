@@ -10,7 +10,8 @@ Template Name:DEEPMIND
 
 <head>
     <meta charset="utf-8" />
-    <title>Clinique Clémence </title>
+    
+    <title>@yield('title')</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
     <meta name="description" content="Située en périphérie de Ouagadougou, notre clinique médicale offre une prise en charge globale et personnalisée à tous ses patients. Grâce à une équipe de professionnels compétents et un plateau technique moderne." />

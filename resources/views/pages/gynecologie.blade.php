@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+    Gynécologie
+@endsection
+
 @section('page')
 
 <!-- Header Section -->

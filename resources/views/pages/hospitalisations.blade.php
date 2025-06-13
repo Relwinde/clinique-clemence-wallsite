@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+    Hospitalisations   
+@endsection
+
 @section('page')
 
 <!-- Titre Section -->

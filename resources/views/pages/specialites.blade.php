@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+    Spécialités Médicales
+@endsection
+
 @section('page')
 
 <!-- En-tête -->

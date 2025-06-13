@@ -25,6 +25,7 @@
                             <li class="has-mega gc_main_navigation"><a href="{{ url('/') }}" class="gc_main_navigation hover_color"> Acceuil&nbsp; </a>
 
                             </li>
+                            <li class="has-mega gc_main_navigation"><a href="{{url('about-us')}}" class="gc_main_navigation hover_color">A propos&nbsp; </a></li>
                             <li class="has-mega gc_main_navigation"><a href="{{url('appointment')}}" class="gc_main_navigation hover_color">Rendez-vous&nbsp; </a>
                             </li>
                             <li class="has-mega gc_main_navigation"><a href="#" class="gc_main_navigation hover_color"> services&nbsp; </a>
@@ -47,7 +48,7 @@
                         </li>
                         {{-- <li class="has-mega gc_main_navigation"><a href="{{ url('gallerie') }}" class="gc_main_navigation hover_color"> gallerie&nbsp;</a></li> --}}
 
-                        <li class="has-mega gc_main_navigation"><a href="{{url('about-us')}}" class="gc_main_navigation hover_color">A propos&nbsp; </a></li>
+                        
                         {{-- <li class="has-mega gc_main_navigation"><a href="{{url('actualites')}}" class="gc_main_navigation hover_color">Actualité&nbsp; </a></li> --}}
                         <li class="has-mega gc_main_navigation"><a href="{{url('contacts')}}" class="gc_main_navigation hover_color"> contacts&nbsp; </a>
                         </li>
@@ -100,6 +101,7 @@
     <div id='cssmenu' class="wd_single_index_menu">
         <ul>
             <li><a href="{{ url('/') }}">Accueil</a></li>
+            <li><a href="{{url('about-us')}}">À propos</a></li>
             <li><a href="{{ url('appointment') }}">Rendez-vous</a></li>
             <li class='has-sub'><a href="#">Services</a>
                 <ul>
@@ -117,7 +119,6 @@
                     <li><a href="{{url('pharmacie/')}}">Pharmacie</a></li>
                 </ul>
             </li>
-            <li><a href="{{url('about-us')}}">À propos</a></li>
             <li><a href="{{url('contacts')}}">Contacts</a></li>
         </ul>
     </div>

@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+    Dépôt Pharmaceutique
+@endsection
+
 @section('page')
 
 <!-- Header Section -->

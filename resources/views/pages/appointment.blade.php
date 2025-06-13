@@ -1,5 +1,7 @@
 @extends('layout')
-
+@section('title')
+    Rendez-vous
+@endsection
 @section('page')
     <!-- Section titre -->
  @include('partials.pages-header', [

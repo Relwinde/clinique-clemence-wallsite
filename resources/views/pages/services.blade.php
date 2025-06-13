@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+    Nos Services Médicaux
+@endsection
+
 @section('page')
 <!-- Hero Section -->
 {{-- <section class="medical-hero">

@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+    Imagerie Médicale
+@endsection
+
 @section('page')
 
 <!-- Titre Section -->

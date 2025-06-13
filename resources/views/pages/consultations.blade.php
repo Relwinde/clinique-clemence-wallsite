@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+    Consultations
+@endsection
+
 @section('page')
 
 <!-- En-tête -->

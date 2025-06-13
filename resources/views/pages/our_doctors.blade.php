@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+    Our Doctors
+@endsection
+
 @section('page')
 
 

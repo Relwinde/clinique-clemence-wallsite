@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+    Service d'urgence
+@endsection
+
 @section('page')
 
 <!-- Titre Section -->

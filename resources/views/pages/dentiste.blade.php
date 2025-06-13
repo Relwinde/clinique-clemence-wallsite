@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+    Dentiste
+@endsection
+
 @section('page')
 
 <!-- Header Section -->

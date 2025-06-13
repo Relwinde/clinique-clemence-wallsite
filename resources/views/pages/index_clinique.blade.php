@@ -1,6 +1,10 @@
  @extends('layout')
 
- @section('page')
+@section('title')
+    Accueil
+@endsection
+
+@section('page')
 
  @include('partials.slider')
  <!--slider wrapper end-->

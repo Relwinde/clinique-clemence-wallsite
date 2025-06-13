@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+    Laboratoire d'Analyses Médicales
+@endsection
+
 @section('page')
 
 <!-- En-tête -->
