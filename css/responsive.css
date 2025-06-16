@@ -633,9 +633,9 @@
 	margin-left: -7px;
     margin-top: 16px;
 }
-.rp_mobail_menu_main_wrapper {
+/* .rp_mobail_menu_main_wrapper {
 	padding:10px 15px 0 15px;
-}
+} */
     /*--index-2--*/
 	
 .about_us_section_2 {
@@ -2145,10 +2145,10 @@ button span{
 .top_header_wrapper{
 	display:none;
 }
-.menu_wrapper{
+/* .menu_wrapper{
 	padding-top:10px;
 	padding-bottom:10px;
-}
+} */
 #toggle{
 	margin-top: -15px;
 	padding-right:10px;
