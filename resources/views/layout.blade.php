@@ -118,7 +118,7 @@ Template Name:DEEPMIND
             items: 1,         // Nombre d'éléments à afficher
             loop: true,       // Boucle infinie
             autoplay: true,   // Défilement automatique
-            autoplayTimeout: 2000, // Temps entre chaque slide (3s)
+            autoplayTimeout: 3000, // Temps entre chaque slide (3s)
             autoplayHoverPause: false // Pause au survol
         });
     });
