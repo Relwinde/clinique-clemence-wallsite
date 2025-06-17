@@ -67,9 +67,8 @@
                                         <img src="images/line.png" class="img-responsive" alt="img" />
                                     </div>
                                     <div class="footer_cnct">
-                                        <p>Lundi – Vendredi ------<span>09:00-17:00</span></p>
-                                        <p>Samedi -----------------<span>09:30-17:00</span></p>
-                                        <p>Dimanche -------------<span>10:30-18:00</span></p>
+                                        <p>24 heures /24 </span></p>
+                                        <p>7 jours / 7</span></p>
                                     </div>
                                 </div>
                                 <!--footer_4-->

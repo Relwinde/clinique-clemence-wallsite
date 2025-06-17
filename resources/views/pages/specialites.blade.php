@@ -1,16 +1,16 @@
 @extends('layout')
 
 @section('title')
-    Spécialités Médicales
+Spécialités Médicales
 @endsection
 
 @section('page')
 
 <!-- En-tête -->
- @include('partials.pages-header', [
-    'title' => 'Nos Spécialités Médicales',
-    'subtitle' => 'Spécialités',
- ])
+@include('partials.pages-header', [
+'title' => 'Nos Spécialités Médicales',
+'subtitle' => 'Spécialités',
+])
 
 <!-- Section spécialités -->
 <div class="specialites-service-wrapper section-padding-top-80">
@@ -35,8 +35,8 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div class="specialites-service-card">
                             <div class="specialites-service-image-wrapper">
-                                <img src="{{ asset('images/cardio.jpg') }}" 
-                                     alt="Cardiologie" class="img-responsive">
+                                <img src="{{ asset('images/cardio.jpg') }}"
+                                    alt="Cardiologie" class="img-responsive">
                                 <div class="specialites-service-overlay">
                                     <div class="specialites-service-overlay-content">
                                         <a href="/specialites/cardiologie">En savoir plus</a>
@@ -57,8 +57,8 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div class="specialites-service-card">
                             <div class="specialites-service-image-wrapper">
-                                <img src="{{asset('images/neurologie.jpg')}}" 
-                                     alt="Neurologie" class="img-responsive">
+                                <img src="{{asset('images/neurologie.jpg')}}"
+                                    alt="Neurologie" class="img-responsive">
                                 <div class="specialites-service-overlay">
                                     <div class="specialites-service-overlay-content">
                                         <a href="/specialites/neurologie">En savoir plus</a>
@@ -79,8 +79,8 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div class="specialites-service-card">
                             <div class="specialites-service-image-wrapper">
-                                <img src="{{ asset('images/pediatrie.jpg') }}" 
-                                     alt="Pédiatrie" class="img-responsive">
+                                <img src="{{ asset('images/pediatrie.jpg') }}"
+                                    alt="Pédiatrie" class="img-responsive">
                                 <div class="specialites-service-overlay">
                                     <div class="specialites-service-overlay-content">
                                         <a href="/specialites/pediatrie">En savoir plus</a>
@@ -101,8 +101,8 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div class="specialites-service-card">
                             <div class="specialites-service-image-wrapper">
-                                <img src="{{ asset('images/dermato.jpg') }}" 
-                                     alt="Dermatologie" class="img-responsive">
+                                <img src="{{ asset('images/dermato.jpg') }}"
+                                    alt="Dermatologie" class="img-responsive">
                                 <div class="specialites-service-overlay">
                                     <div class="specialites-service-overlay-content">
                                         <a href="/specialites/dermatologie">En savoir plus</a>
@@ -123,8 +123,8 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div class="specialites-service-card">
                             <div class="specialites-service-image-wrapper">
-                                <img src="{{ asset('images/ortho.jpg') }}" 
-                                     alt="Orthopédie" class="img-responsive">
+                                <img src="{{ asset('images/ortho.jpg') }}"
+                                    alt="Orthopédie" class="img-responsive">
                                 <div class="specialites-service-overlay">
                                     <div class="specialites-service-overlay-content">
                                         <a href="/specialites/orthopedie">En savoir plus</a>
@@ -145,8 +145,8 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div class="specialites-service-card">
                             <div class="specialites-service-image-wrapper">
-                                <img src="{{ asset('images/gyneco.jpg') }}"  
-                                     alt="Gynécologie" class="img-responsive">
+                                <img src="{{ asset('images/gyneco.jpg') }}"
+                                    alt="Gynécologie" class="img-responsive">
                                 <div class="specialites-service-overlay">
                                     <div class="specialites-service-overlay-content">
                                         <a href="/specialites/gynecologie">En savoir plus</a>
@@ -163,6 +163,29 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Rhumatologie -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="specialites-service-card">
+                            <div class="specialites-service-image-wrapper">
+                                <img src="{{ asset('images/rhumato.jpg') }}"
+                                    alt="Rhumatologie" class="img-responsive">
+                                <div class="specialites-service-overlay">
+                                    <div class="specialites-service-overlay-content">
+                                        <a href="/specialites/rhumatologie">En savoir plus</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="specialites-service-text">
+                                <h3>Rhumatologie</h3>
+                                <p>Diagnostic et traitement des maladies des articulations, des os, des muscles et des tissus mous.</p>
+                                <div class="specialites-service-meta">
+                                    <span><i class="fas fa-user-md"></i> 3 spécialistes</span>
+                                    <span><i class="fas fa-calendar-alt"></i> RDV sous 72h</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -175,8 +198,8 @@
         <div class="row">
             <div class="col-xl-5">
                 <div class="specialites-about-image">
-                    <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                         alt="Équipe médicale" class="img-responsive">
+                    <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        alt="Équipe médicale" class="img-responsive">
                     <div class="specialites-about-badge">
                         <span>25+</span>
                         <p>Spécialistes expérimentés</p>
@@ -187,8 +210,8 @@
                 <div class="specialites-about-content">
                     <h3 class="specialites-about-title">Un centre médical d'excellence</h3>
                     <p class="padding-top-20">
-                        Fondé en 2005, notre centre médical regroupe des spécialistes reconnus dans leur domaine, 
-                        offrant des soins de qualité avec des technologies de pointe dans un environnement 
+                        Fondé en 2005, notre centre médical regroupe des spécialistes reconnus dans leur domaine,
+                        offrant des soins de qualité avec des technologies de pointe dans un environnement
                         conçu pour votre confort et votre bien-être.
                     </p>
                     <ul class="specialites-about-list">
@@ -223,7 +246,7 @@
                     </p>
                 </div>
             </div>
-            
+
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                 <div class="specialites-equipment-card">
                     <div class="specialites-equipment-icon">
@@ -234,7 +257,7 @@
                     <a href="/techniques/chirurgie-mini-invasive" class="specialites-equipment-link">Découvrir →</a>
                 </div>
             </div>
-            
+
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                 <div class="specialites-equipment-card">
                     <div class="specialites-equipment-icon">
@@ -245,7 +268,7 @@
                     <a href="/techniques/therapies-innovantes" class="specialites-equipment-link">Découvrir →</a>
                 </div>
             </div>
-            
+
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                 <div class="specialites-equipment-card">
                     <div class="specialites-equipment-icon">
@@ -256,7 +279,7 @@
                     <a href="/techniques/reeducation" class="specialites-equipment-link">Découvrir →</a>
                 </div>
             </div>
-            
+
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                 <div class="specialites-equipment-card">
                     <div class="specialites-equipment-icon">
@@ -283,7 +306,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-xl-6">
                 <div class="specialites-accordion">
                     <button class="specialites-accordion-button">
@@ -294,13 +317,13 @@
                         <p>Vous pouvez prendre rendez-vous de plusieurs manières :</p>
                         <ul>
                             <li>En ligne via notre plateforme sécurisée</li>
-                            <li>Par téléphone au 01 23 45 67 89</li>
+                            <li>Par téléphone au +226 76730818 / 70751404 / 69880855</li>
                             <li>Directement à l'accueil de notre centre</li>
                         </ul>
                         <p>Nos conseillers vous orienteront vers le spécialiste adapté à votre besoin.</p>
                     </div>
                 </div>
-                
+
                 <div class="specialites-accordion">
                     <button class="specialites-accordion-button">
                         <span>Les consultations sont-elles remboursées ?</span>
@@ -316,7 +339,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-xl-6">
                 <div class="specialites-accordion">
                     <button class="specialites-accordion-button">
@@ -334,7 +357,7 @@
                         </ul>
                     </div>
                 </div>
-                
+
                 <div class="specialites-accordion">
                     <button class="specialites-accordion-button">
                         <span>Proposez-vous des consultations en urgence ?</span>
@@ -362,12 +385,12 @@
         <div class="row">
             <div class="col-xl-12">
                 <div class="specialites-cta-content">
-                    <h2>Vous avez des questions sur nos spécialités ?</h2>
+                    <h4>Vous avez des questions sur nos spécialités ?</h4>
                     <p class="padding-top-20 padding-bottom-30">Notre équipe est à votre écoute pour vous orienter vers le spécialiste adapté à votre situation.</p>
                     <div class="specialites-cta-buttons">
                         <a href="/contact" class="btn btn-light">Nous contacter</a>
                         <a href="tel:+33123456789" class="btn btn-outline-light">
-                            <i class="fas fa-phone-alt"></i> 01 23 45 67 89
+                            <i class="fas fa-phone-alt"></i> +226 70 75 14 04
                         </a>
                     </div>
                 </div>
@@ -379,16 +402,17 @@
 <style>
     /* Couleur thématique */
     :root {
-        --specialites-color: #2a7f62; /* Vert médecine */
+        --specialites-color: #2a7f62;
+        /* Vert médecine */
         --specialites-color-light: rgba(42, 127, 98, 0.1);
         --specialites-color-dark: #1e6b4e;
     }
 
-        .specialites-section-header {
+    .specialites-section-header {
         margin: 0 auto;
         max-width: 800px;
     }
-    
+
     .section-title {
         font-size: 1.8rem;
         color: var(--specialites-color-dark);
@@ -397,21 +421,21 @@
         text-transform: uppercase;
         letter-spacing: 1px;
     }
-    
+
     .section-divider {
         margin: 15px auto 20px;
         width: 100%;
         display: flex;
         justify-content: center;
     }
-    
+
     .divider-line {
         width: 80px;
         height: 3px;
         background: var(--specialites-color);
         border-radius: 3px;
     }
-    
+
     .section-description {
         color: #555;
         font-size: 1.05rem;
@@ -423,46 +447,46 @@
         .section-title {
             font-size: 1.5rem;
         }
-        
+
         .section-description {
             font-size: 0.95rem;
             padding: 0 15px;
         }
     }
 
-   
+
     /* Cartes spécialités */
     .specialites-service-card {
         margin-bottom: 30px;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         transition: all 0.3s ease;
         border-radius: 10px;
         overflow: hidden;
         background: white;
     }
-    
+
     .specialites-service-image-wrapper {
         height: 250px;
         overflow: hidden;
         position: relative;
     }
-    
+
     .specialites-service-image-wrapper img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         transition: transform 0.5s ease;
     }
-    
+
     .specialites-service-card:hover {
         transform: translateY(-10px);
-        box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
     }
-    
+
     .specialites-service-card:hover img {
         transform: scale(1.1);
     }
-    
+
     .specialites-service-overlay {
         position: absolute;
         top: 0;
@@ -476,11 +500,11 @@
         align-items: center;
         justify-content: center;
     }
-    
+
     .specialites-service-card:hover .specialites-service-overlay {
         opacity: 1;
     }
-    
+
     .specialites-service-overlay-content a {
         color: white;
         font-weight: 600;
@@ -489,30 +513,30 @@
         border-radius: 50px;
         transition: all 0.3s;
     }
-    
+
     .specialites-service-overlay-content a:hover {
         background: white;
         color: var(--specialites-color);
         text-decoration: none;
     }
-    
+
     .specialites-service-text {
         padding: 25px;
         background: white;
     }
-    
+
     .specialites-service-text h3 {
         color: var(--specialites-color);
         margin-bottom: 15px;
         font-size: 1.5rem;
     }
-    
+
     .specialites-service-text p {
         color: #555;
         margin-bottom: 20px;
         min-height: 60px;
     }
-    
+
     .specialites-service-meta {
         display: flex;
         justify-content: space-between;
@@ -521,32 +545,32 @@
         border-top: 1px solid #eee;
         padding-top: 15px;
     }
-    
+
     .specialites-service-meta i {
         color: var(--specialites-color);
         margin-right: 5px;
     }
-    
+
     /* Section À propos */
     .specialites-about-section {
         padding: 100px 0;
         background: #f9f9f9;
         position: relative;
     }
-    
+
     .specialites-about-image {
         position: relative;
         height: 100%;
     }
-    
+
     .specialites-about-image img {
         width: 100%;
         height: 500px;
         object-fit: cover;
         border-radius: 10px;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }
-    
+
     .specialites-about-badge {
         position: absolute;
         bottom: -30px;
@@ -556,45 +580,45 @@
         padding: 20px;
         border-radius: 10px;
         text-align: center;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     }
-    
+
     .specialites-about-badge span {
         font-size: 2.5rem;
         font-weight: 700;
         display: block;
         line-height: 1;
     }
-    
+
     .specialites-about-badge p {
         margin: 0;
         font-size: 0.9rem;
     }
-    
+
     .specialites-about-content {
         padding-left: 50px;
     }
-    
+
     .specialites-about-title {
         color: var(--specialites-color);
         font-size: 2rem;
         font-weight: 700;
         margin-bottom: 20px;
     }
-    
+
     .specialites-about-content p {
         color: #555;
         font-size: 1.1rem;
         line-height: 1.8;
         margin-bottom: 25px;
     }
-    
+
     .specialites-about-list {
         list-style-type: none;
         padding-left: 0;
         margin-bottom: 30px;
     }
-    
+
     .specialites-about-list li {
         position: relative;
         padding-left: 35px;
@@ -602,7 +626,7 @@
         color: #444;
         font-size: 1.05rem;
     }
-    
+
     .specialites-about-list li:before {
         content: "✓";
         color: var(--specialites-color);
@@ -611,11 +635,11 @@
         font-weight: bold;
         font-size: 1.2rem;
     }
-    
+
     .specialites-about-list li strong {
         color: var(--specialites-color-dark);
     }
-    
+
     .specialites-about-cta .btn {
         margin-right: 15px;
         margin-bottom: 15px;
@@ -623,7 +647,7 @@
         font-weight: 600;
         border-radius: 50px;
     }
-    
+
     /* Cartes approches thérapeutiques */
     .specialites-equipment-card {
         text-align: center;
@@ -631,19 +655,19 @@
         padding: 30px 25px;
         background: white;
         border-radius: 10px;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
         transition: all 0.3s;
         height: 100%;
         position: relative;
         border: 1px solid #eee;
     }
-    
+
     .specialites-equipment-card:hover {
         transform: translateY(-10px);
-        box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
         border-color: var(--specialites-color-light);
     }
-    
+
     .specialites-equipment-icon {
         width: 80px;
         height: 80px;
@@ -656,43 +680,43 @@
         color: var(--specialites-color);
         font-size: 2rem;
     }
-    
+
     .specialites-equipment-card h3 {
         color: var(--specialites-color);
         font-size: 1.4rem;
         margin-bottom: 15px;
     }
-    
+
     .specialites-equipment-card p {
         color: #666;
         margin-bottom: 25px;
         font-size: 1rem;
         line-height: 1.7;
     }
-    
+
     .specialites-equipment-link {
         color: var(--specialites-color);
         font-weight: 600;
         text-decoration: none;
         transition: all 0.3s;
     }
-    
+
     .specialites-equipment-link:hover {
         color: var(--specialites-color-dark);
     }
-    
+
     /* Section FAQ */
     .specialites-faq-section {
         background: #f9f9f9;
     }
-    
+
     .specialites-accordion {
         margin-bottom: 15px;
         border-radius: 8px;
         overflow: hidden;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     }
-    
+
     .specialites-accordion-button {
         background: white;
         color: #333;
@@ -709,24 +733,24 @@
         font-weight: 600;
         font-size: 1.1rem;
     }
-    
+
     .specialites-accordion-button:hover {
         background: #f5f5f5;
     }
-    
+
     .specialites-accordion-button.active {
         background: var(--specialites-color);
         color: white;
     }
-    
+
     .specialites-accordion-button i {
         transition: transform 0.3s;
     }
-    
+
     .specialites-accordion-button.active i {
         transform: rotate(180deg);
     }
-    
+
     .specialites-accordion-content {
         padding: 0 25px;
         background-color: white;
@@ -734,26 +758,26 @@
         overflow: hidden;
         transition: max-height 0.3s ease-out;
     }
-    
+
     .specialites-accordion-content p,
     .specialites-accordion-content ul {
         padding-bottom: 20px;
     }
-    
+
     .specialites-accordion-content ul {
         padding-left: 20px;
     }
-    
+
     .specialites-accordion-content li {
         margin-bottom: 8px;
     }
-    
+
     /* Section CTA */
     .specialites-cta-section {
         padding: 100px 0;
         position: relative;
     }
-    
+
     .specialites-cta-overlay {
         background: rgba(42, 127, 98, 0.9);
         position: absolute;
@@ -762,7 +786,7 @@
         width: 100%;
         height: 100%;
     }
-    
+
     .specialites-cta-content {
         position: relative;
         z-index: 1;
@@ -771,24 +795,24 @@
         max-width: 800px;
         margin: 0 auto;
     }
-    
+
     .specialites-cta-content h2 {
         font-size: 2.5rem;
         margin-bottom: 20px;
         font-weight: 700;
     }
-    
+
     .specialites-cta-content p {
         font-size: 1.2rem;
         opacity: 0.9;
     }
-    
+
     .specialites-cta-buttons {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
-    
+
     .specialites-cta-buttons .btn {
         margin: 0 10px 15px;
         padding: 12px 30px;
@@ -796,95 +820,95 @@
         border-radius: 50px;
         transition: all 0.3s;
     }
-    
+
     .specialites-cta-buttons .btn-light {
         background: white;
         color: var(--specialites-color);
     }
-    
+
     .specialites-cta-buttons .btn-light:hover {
         background: #f5f5f5;
     }
-    
+
     .specialites-cta-buttons .btn-outline-light {
         border: 2px solid white;
         background: transparent;
     }
-    
+
     .specialites-cta-buttons .btn-outline-light:hover {
-        background: rgba(255,255,255,0.1);
+        background: rgba(255, 255, 255, 0.1);
     }
-    
+
     /* Responsive */
     @media (max-width: 1200px) {
         .specialites-header-content h1 {
             font-size: 3rem;
         }
-        
+
         .specialites-about-image img {
             height: 400px;
         }
     }
-    
+
     @media (max-width: 992px) {
         .specialites-header-section {
             padding: 120px 0;
         }
-        
+
         .specialites-about-content {
             padding-left: 0;
             padding-top: 50px;
         }
-        
+
         .specialites-about-badge {
             right: 0;
         }
     }
-    
+
     @media (max-width: 768px) {
         .specialites-header-section {
             padding: 100px 0;
         }
-        
+
         .specialites-header-content h1 {
             font-size: 2.5rem;
         }
-        
+
         .specialites-service-image-wrapper,
         .specialites-about-image img {
             height: 200px;
         }
-        
+
         .specialites-about-badge {
             bottom: -20px;
             right: 0;
             padding: 15px;
         }
-        
+
         .specialites-about-badge span {
             font-size: 2rem;
         }
-        
+
         .specialites-cta-content h2 {
             font-size: 2rem;
         }
     }
-    
+
     @media (max-width: 576px) {
         .specialites-header-content h1 {
             font-size: 2rem;
         }
-        
+
         .specialites-about-badge {
             position: static;
             margin-top: 20px;
             display: inline-block;
         }
-        
+
         .specialites-cta-content h2 {
             font-size: 1.8rem;
         }
-        
+
         .specialites-cta-buttons .btn {
             width: 100%;
             margin: 0 0 15px;
@@ -896,16 +920,16 @@
     // Accordéon FAQ
     document.addEventListener('DOMContentLoaded', function() {
         const accordionButtons = document.querySelectorAll('.specialites-accordion-button');
-        
+
         accordionButtons.forEach(button => {
             button.addEventListener('click', function() {
                 // Toggle active class on button
                 this.classList.toggle('active');
-                
+
                 // Toggle icon rotation
                 const icon = this.querySelector('i');
                 icon.style.transform = icon.style.transform === 'rotate(180deg)' ? 'rotate(0deg)' : 'rotate(180deg)';
-                
+
                 // Toggle content
                 const content = this.nextElementSibling;
                 if (content.style.maxHeight) {
@@ -915,7 +939,7 @@
                 }
             });
         });
-        
+
         // Open first accordion by default
         if (accordionButtons.length > 0) {
             accordionButtons[0].click();

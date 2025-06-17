@@ -131,7 +131,8 @@
             <div class="col-xl-12">
                 <div class="nursing-section-header padding-bottom-40">
                     <h1 class="padding-bottom-20">SOINS INFIRMIERS À DOMICILE</h1>
-                    <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20">
+                    <img src="{{ asset('images/line.png') }}" alt="ligne" class="med_bottompadder20">
+                    {{-- <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20"> --}}
                 </div>
             </div>
 
@@ -179,7 +180,8 @@
             <div class="col-xl-12">
                 <div class="nursing-section-header padding-bottom-40">
                     <h1 class="padding-bottom-20">INFORMATIONS UTILES</h1>
-                    <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20">
+                    <img src="{{ asset('images/line.png') }}" alt="ligne" class="med_bottompadder20">
+                    {{-- <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20"> --}}
                 </div>
             </div>
 
@@ -209,7 +211,7 @@
                         <i class="fa fa-phone"></i>
                     </div>
                     <h3>Contactez-nous</h3>
-                    <p>Service infirmier disponible du lundi au samedi de 7h à 20h.</p>
+                    <p>Service infirmier disponible 24 heures sur 24 et 7 jours sur 7</p>
                     <a href="tel:+22676730818" class="nursing-secondary-btn">Appeler</a>
                 </div>
             </div>

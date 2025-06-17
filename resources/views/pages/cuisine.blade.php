@@ -204,7 +204,8 @@
             <div class="col-xl-12">
                 <div class="kitchen-section-header padding-bottom-40">
                     <h1 class="padding-bottom-20">NOS SPÉCIALITÉS NUTRITIONNELLES</h1>
-                    <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20">
+                    {{-- <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20"> --}}
+                    <img src="{{ asset('images/line.png') }}" alt="ligne" class="med_bottompadder20">
                     <p>Des solutions alimentaires adaptées à chaque pathologie</p>
                 </div>
             </div>
@@ -296,10 +297,8 @@
                 <div class="kitchen-preparation-card">
                     <h2><i class="fa fa-info-circle"></i> Commander un repas</h2>
                     <ul class="kitchen-preparation-list">
-                        <li>Réservation 24h à l'avance pour les repas spéciaux</li>
-                        <li>Choix du menu via l'application ou le formulaire papier</li>
                         <li>Indication des allergies et restrictions alimentaires</li>
-                        <li>Heures de service : 7h-9h / 12h-14h / 18h-20h</li>
+                        <li>Heures de service : 24h/24 et 7j/7 </li>
                         <li>Service en chambre pour les patients alités</li>
                     </ul>
                 </div>
@@ -346,7 +345,7 @@
                     <div class="contact-content">
                         <h3>Service diététique</h3>
                         <p>Pour toute question sur les régimes ou la nutrition pendant l'hospitalisation :</p>
-                        <p>diététique@clinique.fr - Tél : 01 23 45 67 89 (poste 456)</p>
+                        <p>Email : contact@clinique-clemence.com - Tél :  +226 76730818 / 70751404 / 69880855</p>
                     </div>
                 </div>
             </div>

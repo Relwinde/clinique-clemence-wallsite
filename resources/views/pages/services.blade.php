@@ -254,7 +254,7 @@
         </div>
 
         <div class="text-center mt-5">
-            <a href="#" class="btn-view-all">Voir toutes les spécialités <i class="fas fa-arrow-right"></i></a>
+            <a href="{{ url('specialites') }}" class="btn-view-all">Voir toutes les spécialités <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>
 </section>

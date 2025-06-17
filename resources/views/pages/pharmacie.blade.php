@@ -19,7 +19,8 @@
             <div class="col-xl-12">
                 <div class="pharmacy-section-header padding-bottom-40">
                     <h1 class="padding-bottom-20">NOS SERVICES PHARMACEUTIQUES</h1>
-                    <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20">
+                    {{-- <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20"> --}}
+                    <img src="{{ asset('images/line.png') }}" alt="ligne" class="med_bottompadder20">
                     <p>
                         Une équipe de pharmaciens qualifiés à votre service pour vos besoins en médicaments et conseils santé.
                     </p>
@@ -312,19 +313,13 @@
                         <div class="pharmacy-accordion-item">
                             <button class="pharmacy-accordion-button">Comment commander mes médicaments ?</button>
                             <div class="pharmacy-accordion-content">
-                                <p>Vous pouvez déposer votre ordonnance directement à la pharmacie, par fax au 01 23 45 67 89 ou via notre plateforme en ligne sécurisée.</p>
+                                <p>Vous pouvez déposer votre ordonnance directement à la pharmacie</p>
                             </div>
                         </div>
                         <div class="pharmacy-accordion-item">
                             <button class="pharmacy-accordion-button">Quels documents fournir ?</button>
                             <div class="pharmacy-accordion-content">
-                                <p>Une ordonnance valide, votre carte vitale et votre attestation de mutuelle. Pour les nouveaux patients, une pièce d'identité peut être demandée.</p>
-                            </div>
-                        </div>
-                        <div class="pharmacy-accordion-item">
-                            <button class="pharmacy-accordion-button">Délais de préparation</button>
-                            <div class="pharmacy-accordion-content">
-                                <p>La plupart des commandes sont prêtes dans les 24h. Pour les préparations magistrales ou médicaments spéciaux, comptez 48h à 72h.</p>
+                                <p>Une ordonnance valide. Pour les nouveaux patients, une pièce d'identité peut être demandée.</p>
                             </div>
                         </div>
                     </div>
@@ -334,25 +329,7 @@
     </div>
 </div>
 
-<!-- Section urgences -->
-<div class="pharmacy-emergency-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="emergency-alert">
-                    <div class="emergency-icon">
-                        <i class="fas fa-exclamation-triangle"></i>
-                    </div>
-                    <div class="emergency-content">
-                        <h3>En cas d'urgence médicamenteuse</h3>
-                        <p>Composez le 15 (SAMU) ou contactez votre médecin traitant immédiatement en cas de réaction indésirable grave.</p>
-                        <p>Pour les renouvellements urgents en dehors des heures d'ouverture, contactez la pharmacie de garde au 01 23 45 67 89.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 <style>
     /* Styles spécifiques pour la page pharmacie */

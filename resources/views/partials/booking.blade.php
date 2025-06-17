@@ -5,8 +5,8 @@
                 <div class="team_heading_wrapper med_bottompadder50 wow fadeInDown" data-wow-delay="0.5s">
                     <h1 class="med_bottompadder20">Prendre un rendez-vous</h1>
                     <img src="{{asset('images/Icon_team.png')}}" alt="ligne" class="med_bottompadder20">
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-                        <br>nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate.</p>
+                    <p>Prenez rendez-vous en ligne avec nos spécialistes.
+                        <br>Notre équipe vous contactera pour confirmer votre rendez-vous.</p>
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12  col-12">
                         <div class="response"></div>
                         <div class="contect_btn">
-                            <button type="button" class="submitForm">Envoyer le message</button>
+                            <button type="button" class="submitForm">Envoyer</button>
                         </div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                             <img src="images/booking_call.png" alt="img" class="img-circle">
                         </div>
                         <div class="booking_chat">
-                            <h1>+1 800 383 88 90</h1>
+                            <h1>+226 76 73 08 18</h1>
                             <p>En cas d'urgence. Votre gestionnaire de dossier personnel veillera à ce que vous receviez les meilleurs soins possibles.</p>
                         </div>
                         <div class="booking_btn">

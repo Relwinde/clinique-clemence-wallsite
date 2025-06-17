@@ -201,9 +201,8 @@
                     </div>
                     <h3>Horaires</h3>
                     <div class="info-content">
-                        <p><strong>Lundi au Vendredi</strong><br>7h00 - 19h00</p>
-                        <p><strong>Samedi</strong><br>8h00 - 12h00</p>
-                        <p><strong>Urgences</strong><br>24h/24 sur appel</p>
+                        <p><strong>24 heures / 24</strong></p>
+                        <p><strong>7 jours / 7</strong></p>
                     </div>
                 </div>
             </div>

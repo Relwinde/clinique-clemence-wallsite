@@ -19,7 +19,8 @@
             <div class="col-xl-12">
                 <div class="consultation-section-header padding-bottom-40">
                     <h1 class="padding-bottom-20">NOS SERVICES DE GYNÉCOLOGIE</h1>
-                    <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20">
+                    {{-- <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20"> --}}
+                    <img src="{{ asset('images/line.png') }}" alt="ligne" class="med_bottompadder20">
                     <p>
                         Une prise en charge complète et personnalisée pour la santé féminine à toutes les étapes de la vie.
                     </p>
@@ -32,7 +33,7 @@
                     <!-- Service 1 -->
                     <div class="consultation-service-card">
                         <div class="consultation-service-image-wrapper">
-                            <img src="https://img.freepik.com/photos-premium/femme-enceinte-consultation-medecin_23-2148843444.jpg"
+                            <img src="{{asset('images/gynecologie1.jpg')}}"
                                 alt="Suivi gynécologique" class="img-responsive">
                             <div class="consultation-service-overlay">
                                 <div class="consultation-service-overlay-content">
@@ -54,7 +55,7 @@
                     <!-- Service 2 -->
                     <div class="consultation-service-card">
                         <div class="consultation-service-image-wrapper">
-                            <img src="https://img.freepik.com/photos-premium/medecin-discutant-avec-patiente-au-sujet-contraception_23-2148843446.jpg"
+                            <img src="{{asset('images/gynecologie2.jpg')}}"
                                 alt="Contraception" class="img-responsive">
                             <div class="consultation-service-overlay">
                                 <div class="consultation-service-overlay-content">
@@ -76,7 +77,7 @@
                     <!-- Service 3 -->
                     <div class="consultation-service-card">
                         <div class="consultation-service-image-wrapper">
-                            <img src="https://img.freepik.com/photos-premium/medecin-realisation-echographie-femme-enceinte_23-2148843443.jpg"
+                            <img src="{{asset('images/gynecologie3.jpg')}}"
                                 alt="Suivi de grossesse" class="img-responsive">
                             <div class="consultation-service-overlay">
                                 <div class="consultation-service-overlay-content">
@@ -98,7 +99,7 @@
                     <!-- Service 4 -->
                     <div class="consultation-service-card">
                         <div class="consultation-service-image-wrapper">
-                            <img src="https://img.freepik.com/photos-premium/medecin-parlant-femme-menopause_23-2148843445.jpg"
+                            <img src="{{asset('images/gynecologie4.jpg')}}"
                                 alt="Ménopause" class="img-responsive">
                             <div class="consultation-service-overlay">
                                 <div class="consultation-service-overlay-content">
@@ -120,7 +121,7 @@
                     <!-- Service 5 -->
                     <div class="consultation-service-card">
                         <div class="consultation-service-image-wrapper">
-                            <img src="https://img.freepik.com/photos-premium/medecin-faisant-examen-sein-femme_23-2148843447.jpg"
+                            <img src="{{asset('23-2148843447.jpg')}}"
                                 alt="Dépistage" class="img-responsive">
                             <div class="consultation-service-overlay">
                                 <div class="consultation-service-overlay-content">
@@ -142,7 +143,7 @@
                     <!-- Service 6 -->
                     <div class="consultation-service-card">
                         <div class="consultation-service-image-wrapper">
-                            <img src="https://img.freepik.com/photos-premium/consultation-gynecologique-femme-parlant-medecin_23-2148843448.jpg"
+                            <img src="{{asset('parlant-medecin_23-2148843448.jpg')}}"
                                 alt="Problèmes gynécologiques" class="img-responsive">
                             <div class="consultation-service-overlay">
                                 <div class="consultation-service-overlay-content">
@@ -172,7 +173,7 @@
         <div class="row">
             <div class="col-xl-5">
                 <div class="consultation-about-image">
-                    <img src="https://img.freepik.com/photos-premium/gynecologue-parlant-patiente-consultation_23-2148843449.jpg"
+                    <img src="{{asset('images/gynecologie.jpg')}}"
                         alt="Consultation gynécologique" class="img-responsive">
                 </div>
             </div>
@@ -204,7 +205,8 @@
             <div class="col-xl-12">
                 <div class="consultation-section-header padding-bottom-40">
                     <h1 class="padding-bottom-20">NOS SPÉCIALITÉS EN GYNÉCOLOGIE</h1>
-                    <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20">
+                    {{-- <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20"> --}}
+                    <img src="{{ asset('images/line.png') }}" alt="ligne" class="med_bottompadder20">
                     <p>Découvrez nos domaines d'expertise en santé féminine</p>
                 </div>
             </div>
@@ -217,7 +219,7 @@
                         </div>
                         <h3>Gynécologie Obstétrique</h3>
                         <p>Suivi de grossesse, accouchement et post-partum.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{url('appointment')}}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="consultation-specialty-card">
@@ -226,7 +228,7 @@
                         </div>
                         <h3>Contraception</h3>
                         <p>Choix et adaptation des méthodes contraceptives.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{url('appointment')}}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="consultation-specialty-card">
@@ -235,7 +237,7 @@
                         </div>
                         <h3>Fertilité</h3>
                         <p>Bilan de fertilité et accompagnement PMA.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{url('appointment')}}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="consultation-specialty-card">
@@ -244,7 +246,7 @@
                         </div>
                         <h3>Dépistages</h3>
                         <p>Dépistage des cancers et infections gynécologiques.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{url('appointment')}}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="consultation-specialty-card">
@@ -253,7 +255,7 @@
                         </div>
                         <h3>Ménopause</h3>
                         <p>Prise en charge des symptômes et complications.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{url('appointment')}}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="consultation-specialty-card">
@@ -262,7 +264,7 @@
                         </div>
                         <h3>Chirurgie Gynécologique</h3>
                         <p>Interventions pour pathologies gynécologiques.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{url('appointment')}}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="consultation-specialty-card">
@@ -271,7 +273,7 @@
                         </div>
                         <h3>Endométriose</h3>
                         <p>Diagnostic et prise en charge de l'endométriose.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{url('appointment')}}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="consultation-specialty-card">
@@ -280,7 +282,7 @@
                         </div>
                         <h3>Santé Sexuelle</h3>
                         <p>Consultations pour troubles et éducation sexuelle.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{url('appointment')}}" class="specialty-link">Prendre RDV</a>
                     </div>
                 </div>
             </div>
@@ -345,8 +347,8 @@
                     </div>
                     <div class="emergency-content">
                         <h3>Urgences gynécologiques</h3>
-                        <p>En cas de douleurs pelviennes intenses, saignements abondants ou fièvre, composez le 15 (SAMU) immédiatement.</p>
-                        <p>Pour les urgences non vitales, notre service est joignable au 01 23 45 67 89.</p>
+                        <p>En cas de douleurs pelviennes intenses, saignements abondants ou fièvre, composez 70 75 14 04 immédiatement.</p>
+                        <p>Pour les urgences non vitales, notre service est joignable au +226 76730818 / 70751404 / 69880855.</p>
                     </div>
                 </div>
             </div>

@@ -22,6 +22,7 @@
                 <div class="team_heading_wrapper med_bottompadder40">
                     <h1 class="med_bottompadder20">NOTRE SERVICE D'URGENCES</h1>
                     <img src="{{ asset('images/line.png') }}" alt="ligne" class="med_bottompadder20">
+                    {{-- <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20"> --}}
                     <p class="med_toppadder20">Une équipe médicale disponible 24h/24 pour prendre en charge toutes les urgences médicales et traumatiques.</p>
                 </div>
             </div>
@@ -180,7 +181,7 @@
 
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                 <div class="urgence-consult-box emergency">
-                    <h3><i class="fa fa-exclamation-triangle"></i> Urgences vitales (SAMU 15)</h3>
+                    <h3><i class="fa fa-exclamation-triangle"></i> Urgences vitales </h3>
                     <ul>
                         <li>Douleur thoracique</li>
                         <li>Difficultés respiratoires</li>

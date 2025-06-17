@@ -29,7 +29,7 @@
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div class="contect_form1 dc_cont_div">
-                                    <input type="text" name="full_name" placeholder="Full Name" class="require">
+                                    <input type="text" name="full_name" placeholder="Nom & Prenoms" class="require">
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
@@ -39,7 +39,7 @@
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div class="contect_form1 dc_cont_div">
-                                    <input type="text" name="contact_no" placeholder="Phone" class="require">
+                                    <input type="text" name="contact_no" placeholder="Telephone" class="require">
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">

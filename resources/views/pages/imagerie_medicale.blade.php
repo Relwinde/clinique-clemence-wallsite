@@ -195,7 +195,9 @@
                         <div class="imagerie-accordion-item">
                             <button class="imagerie-accordion-button">Dois-je prendre rendez-vous ?</button>
                             <div class="imagerie-accordion-content">
-                                <p>Oui pour l'IRM et le scanner, non pour les radiographies standard (sauf mammographie).</p>
+                                <p>Oui, il faut prendre Rendez-vous. En ligne via notre plateforme sécurisée
+Par téléphone au +226 76730818 / 70751404 / 69880855
+Directement à l'accueil de notre centre</p>
                             </div>
                         </div>
                         <div class="imagerie-accordion-item">

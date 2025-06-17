@@ -7,9 +7,7 @@
             </div>
             <div class="appoint_box">
                 <h1 class="med_bottompadder30">Nos heures d'ouverture</h1>
-                <p>Lundi – Vendredi ---------------------------<span>09:00-17:00</span></p>
-                <p>Samedi -------------------------------------<span>09:30-17:00</span></p>
-                <p>Dimanche -----------------------------------<span>10:30-18:00</span></p>
+                <p>24 h / 24 ---------------------------<span>7 jours / 7</span></p>
             </div>
         </div>
         <div class=" col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 resp_apoint_1 d-none d-sm-none d-md-block">

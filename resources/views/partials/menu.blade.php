@@ -48,7 +48,7 @@
                         </li>
                         {{-- <li class="has-mega gc_main_navigation"><a href="{{ url('gallerie') }}" class="gc_main_navigation hover_color"> gallerie&nbsp;</a></li> --}}
 
-                        
+
                         {{-- <li class="has-mega gc_main_navigation"><a href="{{url('actualites')}}" class="gc_main_navigation hover_color">Actualité&nbsp; </a></li> --}}
                         <li class="has-mega gc_main_navigation"><a href="{{url('contacts')}}" class="gc_main_navigation hover_color"> contacts&nbsp; </a>
                         </li>
@@ -95,34 +95,35 @@
             </div>
 
 
-<div id="sidebar">
-    <h1>CLINIQUE<span> CLEMENCE</span></h1>
-    <div id="toggle_close">&times;</div>
-    <div id='cssmenu' class="wd_single_index_menu">
-        <ul>
-            <li><a href="{{ url('/') }}">Accueil</a></li>
-            <li><a href="{{url('about-us')}}">À propos</a></li>
-            <li><a href="{{ url('appointment') }}">Rendez-vous</a></li>
-            <li class='has-sub'><a href="#">Services</a>
-                <ul>
-                    <li><a href="{{url('services/')}}">Services</a></li>
-                    <li><a href="{{url('consultations/')}}">Consultations</a></li>
-                    <li><a href="{{url('specialites/')}}">Spécialités</a></li>
-                    <li><a href="{{url('imagerie_medicale/')}}">Imagerie médicale</a></li>
-                    <li><a href="{{url('labo/')}}">Laboratoire</a></li>
-                    <li><a href="{{url('hospitalisations/')}}">Hospitalisations</a></li>
-                    <li><a href="{{url('soins_infirmiers/')}}">Soins infirmiers</a></li>
-                    <li><a href="{{url('soins_urgence/')}}">Soins d'urgence</a></li>
-                    <li><a href="{{url('dentiste/')}}">Dentiste</a></li>
-                    <li><a href="{{url('gynecologie/')}}">Gynécologie</a></li>
-                    <li><a href="{{url('cuisine/')}}">Cuisine</a></li>
-                    <li><a href="{{url('pharmacie/')}}">Pharmacie</a></li>
-                </ul>
-            </li>
-            <li><a href="{{url('contacts')}}">Contacts</a></li>
-        </ul>
-    </div>
-</div>
+            <div id="sidebar">
+                <h1>CLINIQUE<span> CLEMENCE</span></h1>
+                <div id="toggle_close">&times;</div>
+                <div id='cssmenu' class="wd_single_index_menu">
+                    <ul>
+                        <li><a href="{{ url('/') }}">Accueil</a></li>
+                        <li class='has-sub'><a href="#">Services</a>
+                            <ul>
+                                <li><a href="{{url('services/')}}">Services</a></li>
+                                <li><a href="{{url('consultations/')}}">Consultations</a></li>
+                                <li><a href="{{url('specialites/')}}">Spécialités</a></li>
+                                <li><a href="{{url('imagerie_medicale/')}}">Imagerie médicale</a></li>
+                                <li><a href="{{url('labo/')}}">Laboratoire</a></li>
+                                <li><a href="{{url('hospitalisations/')}}">Hospitalisations</a></li>
+                                <li><a href="{{url('soins_infirmiers/')}}">Soins infirmiers</a></li>
+                                <li><a href="{{url('soins_urgence/')}}">Soins d'urgence</a></li>
+                                <li><a href="{{url('dentiste/')}}">Dentiste</a></li>
+                                <li><a href="{{url('gynecologie/')}}">Gynécologie</a></li>
+                                <li><a href="{{url('cuisine/')}}">Cuisine</a></li>
+                                <li><a href="{{url('pharmacie/')}}">Pharmacie</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="{{url('about-us')}}">À propos</a></li>
+                        <li><a href="{{ url('appointment') }}">Rendez-vous</a></li>
+
+                        <li><a href="{{url('contacts')}}">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
 
         </div>
     </div>

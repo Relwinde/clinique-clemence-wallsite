@@ -174,7 +174,7 @@
         <div class="row">
             <div class="col-xl-5">
                 <div class="dentist-about-image">
-                    <img src="{{asset('images/dentiste-about.jpg')}}"
+                    <img src="{{asset('images/dentiste.jpg')}}"
                         alt="Cabinet dentaire" class="img-responsive">
                 </div>
             </div>
@@ -206,7 +206,8 @@
             <div class="col-xl-12">
                 <div class="dentist-section-header padding-bottom-40">
                     <h1 class="padding-bottom-20">NOS SPÉCIALITÉS DENTAIRES</h1>
-                    <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20">
+                    <img src="{{ asset('images/line.png') }}" alt="ligne" class="med_bottompadder20">
+                    {{-- <img src="https://i.imgur.com/JK7yZQx.png" alt="ligne" class="padding-bottom-20"> --}}
                     <p>Découvrez l'ensemble de nos compétences et spécialités dentaires</p>
                 </div>
             </div>
@@ -219,7 +220,7 @@
                         </div>
                         <h3>Dentisterie Conservatrice</h3>
                         <p>Soins des caries, composites, inlays/onlays pour préserver vos dents naturelles.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{ url('appointment') }}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="dentist-specialty-card">
@@ -228,7 +229,7 @@
                         </div>
                         <h3>Endodontie</h3>
                         <p>Traitement des canaux radiculaires (dévitalisation) pour sauver les dents abîmées.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{url('appointment')}}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="dentist-specialty-card">
@@ -237,7 +238,7 @@
                         </div>
                         <h3>Prothèse Dentaire</h3>
                         <p>Couronnes, bridges, prothèses amovibles pour remplacer les dents manquantes.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{url('appointment')}}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="dentist-specialty-card">
@@ -246,7 +247,7 @@
                         </div>
                         <h3>Esthétique Dentaire</h3>
                         <p>Facettes, éclaircissement, harmonisation du sourire pour un résultat naturel.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{url('appointment')}}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="dentist-specialty-card">
@@ -255,7 +256,7 @@
                         </div>
                         <h3>Dentisterie Pédiatrique</h3>
                         <p>Soins adaptés aux enfants, scellement de sillons, fluor, gestion de l'anxiété.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{url('appointment')}}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="dentist-specialty-card">
@@ -264,7 +265,7 @@
                         </div>
                         <h3>Chirurgie Dentaire</h3>
                         <p>Extractions, greffes, implants, interventions sur les dents de sagesse.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{url('appointment')}}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="dentist-specialty-card">
@@ -273,7 +274,7 @@
                         </div>
                         <h3>Dentisterie du Sport</h3>
                         <p>Protections buccales sur mesure pour les sportifs, gestion des traumatismes.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{url('appointment')}}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="dentist-specialty-card">
@@ -282,7 +283,7 @@
                         </div>
                         <h3>Sédation Consciente</h3>
                         <p>Techniques d'anxiolyse pour les patients phobiques ou les soins longs.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{url('appointment')}}" class="specialty-link">Prendre RDV</a>
                     </div>
                 </div>
             </div>
@@ -314,7 +315,7 @@
                         <div class="dentist-accordion-item">
                             <button class="dentist-accordion-button">Comment prendre rendez-vous ?</button>
                             <div class="dentist-accordion-content">
-                                <p>Par téléphone au 01 23 45 67 89, via notre plateforme en ligne, ou directement à l'accueil.</p>
+                                <p>Par téléphone au +226 76730818 / 70751404 / 69880855 Directement à l'accueil de notre centre</p>
                             </div>
                         </div>
                         <div class="dentist-accordion-item">

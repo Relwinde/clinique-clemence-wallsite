@@ -218,7 +218,7 @@
                         </div>
                         <h3>Pneumologie</h3>
                         <p>Pathologies respiratoires, asthme, BPCO, allergies respiratoires.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{ url('appointment') }}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="consultation-specialty-card">
@@ -227,7 +227,7 @@
                         </div>
                         <h3>Neurologie</h3>
                         <p>Migraines, épilepsie, maladie de Parkinson, sclérose en plaques.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{ url('appointment') }}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="consultation-specialty-card">
@@ -236,7 +236,7 @@
                         </div>
                         <h3>Rhumatologie</h3>
                         <p>Arthrose, ostéoporose, lombalgies, maladies articulaires.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{ url('appointment') }}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="consultation-specialty-card">
@@ -245,7 +245,7 @@
                         </div>
                         <h3>Endocrinologie</h3>
                         <p>Diabète, thyroïde, troubles métaboliques, maladies hormonales.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{ url('appointment') }}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="consultation-specialty-card">
@@ -254,7 +254,7 @@
                         </div>
                         <h3>Allergologie</h3>
                         <p>Diagnostic et traitement des allergies respiratoires et alimentaires.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{ url('appointment') }}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="consultation-specialty-card">
@@ -263,7 +263,7 @@
                         </div>
                         <h3>Gastro-entérologie</h3>
                         <p>Pathologies digestives, endoscopies, troubles hépatiques.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{ url('appointment') }}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="consultation-specialty-card">
@@ -272,7 +272,7 @@
                         </div>
                         <h3>Néphrologie</h3>
                         <p>Maladies rénales, dialyse, hypertension artérielle rénale.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{ url('appointment') }}" class="specialty-link">Prendre RDV</a>
                     </div>
 
                     <div class="consultation-specialty-card">
@@ -281,7 +281,7 @@
                         </div>
                         <h3>Génétique</h3>
                         <p>Consultation et conseil en génétique médicale.</p>
-                        <a href="#" class="specialty-link">Prendre RDV</a>
+                        <a href="{{ url('appointment') }}" class="specialty-link">Prendre RDV</a>
                     </div>
                 </div>
             </div>
@@ -313,7 +313,7 @@
                         <div class="consultation-accordion-item">
                             <button class="consultation-accordion-button">Comment prendre rendez-vous ?</button>
                             <div class="consultation-accordion-content">
-                                <p>Plusieurs options : par téléphone au 01 23 45 67 89, via notre plateforme en ligne, ou directement à l'accueil.</p>
+                                <p>Plusieurs options : par téléphone au +226 76730818 / 70751404 / 69880855, via notre plateforme en ligne, ou directement à l'accueil.</p>
                             </div>
                         </div>
                         <div class="consultation-accordion-item">
