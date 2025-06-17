@@ -105,7 +105,7 @@
                     </div>
 
                     <div class="cat_txt cont_cat_txt">
-                        <a href="#">
+                        <a href="mailto:contact@clinique-clemence.com">
                             <h1>Ecrivez nous</h1>
                         </a>
                         <p>contact@clinique-clemence.com</p>

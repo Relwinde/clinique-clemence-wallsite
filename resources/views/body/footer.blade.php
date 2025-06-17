@@ -13,7 +13,7 @@
                                 <ul>
                                     <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Addresse : </span>Ouagadougou</li>
                                     <li><i class="fa fa-phone" aria-hidden="true"></i><span>Appelez-nous : </span>+226 76 73 08 18/ 70 75 14 04/ 69 88 08 55</li>
-                                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"><span>Email :</span> contact@clinique-clemence.com</a></li>
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:contact@clinique-clemence.com"><span>Email :</span> contact@clinique-clemence.com</a></li>
                                 </ul>
                             </div>
                         </div>
