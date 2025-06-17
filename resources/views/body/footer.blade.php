@@ -5,7 +5,7 @@
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="address_main">
                             <div class="footer_widget_add">
-                                <a href=""><img src="{{asset('images/logo2.png')}}" class="img-responsive" alt="footer_logo" /></a>
+                                <a href=""><img src="{{asset('images/logo_white.png')}}" class="img-responsive" alt="footer_logo" /></a>
                                 <p>La santé d'abord</p>
                                 <a href="{{ url('about-us') }}">A propos de nous <i class="fa fa-long-arrow-right"></i></a>
                             </div>
